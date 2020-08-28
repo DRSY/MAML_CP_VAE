@@ -1,4 +1,7 @@
 import math
+
+from numpy import random
+import random
 import utils.data_processor
 import utils.nn
 import models.vae
@@ -56,6 +59,8 @@ class MAMLCP_VAE(object):
         sub_dec_optimizer = optim.SGD(
             self.m.decoder.parameters(), lr=self.mconf.sub_dec_lr)
 
+        num_query_batch = len(query_batch_generator[0])
+
         # meta-train from init_epoch to epochs
         for epoch in range(init_epoch, epochs):
             total_epoch_loss = 0.0
@@ -63,7 +68,8 @@ class MAMLCP_VAE(object):
             # for each batch
             for b in range(num_batches):
                 support_batch = support_batch_generator[0][b], support_batch_generator[1][b]
-                query_batch = query_batch_generator[0][b], query_batch_generator[1][b]
+                query_batch_idx = random.randint(0, num_query_batch-1)
+                query_batch = query_batch_generator[0][query_batch_idx], query_batch_generator[1][query_batch_idx]
                 support_loss = []
                 query_loss = []
                 # for each sub-task

@@ -97,7 +97,7 @@ def _fine_tune(net, mconf, feat, batch_generator, vocab, device=torch.device('cp
 
 
 def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, transfer_epochs=6, epochs_per_val=2, infer_task='', maml_batch_size=8, sub_batch_size=32, train_batch_size=64, dump_embeddings=False):
-
+    torch.random.manual_seed(42)
     if maml_epochs > 0 or transfer_epochs > 0:
         logger.info("loading data from maml_cp_vae")
         corpus = mconf.corpus
@@ -265,58 +265,3 @@ def run_online_inference(mconf, ckpt, tgt_file, device):
         )
         tsf = vocab.decode_sents(tsf)
         print("[tsf]: {} (pred = {})".format(tsf[0], pred[0].item()))
-
-
-def extract_embeddings(mconf, ckpt, task_id, device, pretrain=False, sample_size=1000):
-
-    net = maml_cp_vae.MAMLAdvAutoencoder(
-        device=device, num_tasks=mconf.num_tasks,
-        mconf=mconf
-    )
-
-    model_path = mconf.model_save_dir_prefix + ckpt
-    net.load_model(model_path)
-
-    if pretrain:
-        dir_prefix = mconf.processed_data_save_dir_prefix + "pretrain/"
-    else:
-        dir_prefix = mconf.processed_data_save_dir_prefix + \
-            "{}t/".format(mconf.num_tasks)
-
-    with open(dir_prefix + "vocab", "rb") as f:
-        vocab = pickle.load(f)
-
-    with open(dir_prefix + "t{}.val".format(task_id), "rb") as f:
-        data = pickle.load(f)
-        s0, s1 = data["s0"], data["s1"]
-        l0, l1 = data["l0"], data["l1"]
-        lb0, lb1 = data["lb0"], data["lb1"]
-        bow0, bow1 = data["bow0"], data["bow1"]
-
-    inds0 = np.random.choice(list(range(l0.shape[0])), sample_size)
-    inds1 = np.random.choice(list(range(l1.shape[0])), sample_size)
-
-    content_embeddings, style_embeddings = net.get_batch_embeddings(
-        input_sequences=np.concatenate([s0[inds0], s1[inds1]], axis=0),
-        lengths=np.concatenate([l0[inds0], l1[inds1]], axis=0)
-    )
-
-    style_embeddings = style_embeddings.cpu().detach().numpy()
-    content_embeddings = content_embeddings.cpu().detach().numpy()
-
-    style_embeddings = [
-        style_embeddings[:l0.shape[0]],
-        style_embeddings[l0.shape[0]:]
-    ]
-    content_embeddings = [
-        content_embeddings[:l0.shape[0]],
-        content_embeddings[l0.shape[0]:]
-    ]
-
-    with open(mconf.emb_save_dir_prefix + "t{}/extract.emb".format(task_id), "wb") as f:
-        embeddings = {
-            "style": style_embeddings,
-            "content": content_embeddings
-        }
-        pickle.dump(embeddings, f)
-        print("dumped embeddings to {}t{}/extract.emb".format(mconf.emb_save_dir_prefix, task_id))
