@@ -71,7 +71,7 @@ def _fine_tune(net, mconf, feat, batch_generator, vocab, device=torch.device('cp
     data = MonoTextData(data_pth, False, vocab=vocab)
     val_feat = np.load(feat_pth)
     val_batch_generator = data.create_data_batch_feats(
-        mconf.train_batch_size, val_feat, device)
+        batch_size, val_feat, device)
     for turn in range(turns):
         init_epoch = turn * epochs_per_val
         end_epoch = min(total_epochs, (turn + 1) * epochs_per_val)
