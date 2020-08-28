@@ -37,6 +37,7 @@ def _train_maml(net, mconf, support_batch_generators, support_feats, query_batch
         val_batch_generators.append(_batch_generator)
     logger.info(f"{len(val_batch_generators)} val btach_generator obtained")
 
+    best_val_loss = 1e9
     for turn in range(turns):
         init_epoch = turn * epochs_per_val
         end_epoch = min(total_epochs, (turn + 1) * epochs_per_val)
@@ -48,20 +49,24 @@ def _train_maml(net, mconf, support_batch_generators, support_feats, query_batch
             epochs=end_epoch,
             init_epoch=init_epoch
         )
-        logger.info("_train_maml first turn finished")
-        exit(0)
         model_file = "epoch-{}.maml".format(end_epoch)
         model_path = mconf.model_save_dir_prefix + model_file
         net.save_model(model_path)
         mconf.last_maml_ckpt = model_file
         logger.info("maml training epoch {} done".format(end_epoch))
         logger.info("evaluation\n--------")
+        val_losses = .0
         for t in range(mconf.num_tasks):
             logger.info("inferring task {} ...".format(t+1))
             losses = net.evaluate(val_batch_generators[t])
             vae_loss, rec_loss, kl1_loss, kl2_loss, *_ = losses
             logger.info("vae loss {}, rec loss {}, kl1 loss {}, kl2 loss {}".format(
                 vae_loss, rec_loss, kl1_loss, kl2_loss))
+            val_losses += vae_loss
+        if best_val_loss > val_losses / mconf.num_tasks:
+            best_val_loss = val_losses / mconf.num_tasks
+        logger.info("avg val loss for epoch [{}-{}] is {}".format(init_epoch, end_epoch, val_losses / mconf.num_tasks))
+        
 
 
 def _fine_tune(net, mconf, feat, batch_generator, vocab, device=torch.device('cpu'), total_epochs=6, epochs_per_val=2, batch_size=64, task_id=1, dump_embeddings=False):

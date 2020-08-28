@@ -1,5 +1,6 @@
 import math
 
+from tqdm import trange, tqdm
 from numpy import random
 import random
 import utils.data_processor
@@ -66,7 +67,8 @@ class MAMLCP_VAE(object):
             total_epoch_loss = 0.0
             init_state = copy.deepcopy(self.m.state_dict())
             # for each batch
-            for b in range(num_batches):
+            trange_batches = trange(num_batches, desc='[]: batch /, epoch /, meta_total_loss ', leave=True)
+            for b in trange_batches:
                 support_batch = support_batch_generator[0][b], support_batch_generator[1][b]
                 query_batch_idx = random.randint(0, num_query_batch-1)
                 query_batch = query_batch_generator[0][query_batch_idx], query_batch_generator[1][query_batch_idx]
@@ -125,7 +127,9 @@ class MAMLCP_VAE(object):
                 timestamp = dt.datetime.now().isoformat()
                 msg = "[{}]: batch {}/{}, epoch {}/{}, meta_total_loss {:g}".format(
                     timestamp, b+1, num_batches, epoch, epochs, avg_query_loss.detach().item())
-                print(msg)
+                trange_batches.set_description(msg)
+                trange_batches.refresh()
+                # print(msg)
             print("--------")
             print("epoch {}/{}: acc_total_loss {:g}".format(epoch +
                                                             1, epochs, total_epoch_loss))
