@@ -54,29 +54,30 @@ def _train_maml(net, mconf, support_batch_generators, support_feats, query_batch
         logger.info("evaluation\n--------")
         for t in range(mconf.num_tasks):
             logger.info("inferring task {} ...".format(t+1))
-            # TODO: eval on val set
             losses = net.evaluate(val_batch_generators[t])
             vae_loss, rec_loss, kl1_loss, kl2_loss, *_ = losses
             logger.info("vae loss {}, rec loss {}, kl1 loss {}, kl2 loss {}".format(
                 vae_loss, rec_loss, kl1_loss, kl2_loss))
 
 
-def _fine_tune(net, mconf, batch_generator, vocab, total_epochs=6, epochs_per_val=2, batch_size=64, task_id=1, dump_embeddings=False):
+def _fine_tune(net, mconf, feat, batch_generator, vocab, device=torch.device('cpu'), total_epochs=6, epochs_per_val=2, batch_size=64, task_id=1, dump_embeddings=False):
 
-    print("transfer learning ...")
+    logger.info("Adapting model to task {} start".format(task_id))
     turns = total_epochs // epochs_per_val
     if total_epochs % epochs_per_val:
         turns += 1
-
+    data_pth = f"../data/{mconf.corpus}/val/t{task_id}.all"
+    feat_pth = f"../data/{mconf.corpus}/val/t{task_id}_glove.npy"
+    data = MonoTextData(data_pth, False, vocab=vocab)
+    val_feat = np.load(feat_pth)
+    val_batch_generator = data.create_data_batch_feats(
+        mconf.train_batch_size, val_feat, device)
     for turn in range(turns):
         init_epoch = turn * epochs_per_val
         end_epoch = min(total_epochs, (turn + 1) * epochs_per_val)
         net.fine_tune(
-            input_sequences_all=seqs["train"],
-            lengths_all=lengths["train"],
-            labels_all=labels["train"],
-            bow_representations_all=bows["train"],
-            batch_size=batch_size,
+            feat=feat,
+            batch_generator=batch_generator,
             epochs=end_epoch,
             init_epoch=init_epoch
         )
@@ -84,48 +85,11 @@ def _fine_tune(net, mconf, batch_generator, vocab, total_epochs=6, epochs_per_va
         model_path = mconf.model_save_dir_prefix + model_file
         net.save_model(model_path)
         mconf.last_tsf_ckpts["t{}".format(task_id)] = model_file
-        print("evaluation\n-------")
-        print("inferring ...")
-        content_embeddings, style_embeddings = net.get_batch_embeddings(
-            input_sequences=np.concatenate(seqs["val"], axis=0),
-            lengths=np.concatenate(lengths["val"], axis=0)
-        )
-        style_conditioning_embeddings = [
-            torch.mean(style_embeddings[:lengths["val"][0].shape[0]], axis=0),
-            torch.mean(style_embeddings[lengths["val"][0].shape[0]:], axis=0)
-        ]
-        if dump_embeddings:
-
-            style_embeddings = style_embeddings.cpu().detach().numpy()
-            content_embeddings = content_embeddings.cpu().detach().numpy()
-
-            style_embeddings = [
-                style_embeddings[:lengths["val"][0].shape[0]],
-                style_embeddings[lengths["val"][0].shape[0]:]
-            ]
-            content_embeddings = [
-                content_embeddings[:lengths["val"][0].shape[0]],
-                content_embeddings[lengths["val"][0].shape[0]:]
-            ]
-            with open(mconf.emb_save_dir_prefix + "t{}/epoch-{}.transfer.emb".format(task_id, end_epoch), "wb") as f:
-                embeddings = {
-                    "style": style_embeddings,
-                    "content": content_embeddings
-                }
-                pickle.dump(embeddings, f)
-                print("dumped embeddings to {}t{}/epoch-{}.transfer.emb".format(
-                    mconf.emb_save_dir_prefix, task_id, end_epoch))
-        for s in [0, 1]:
-            inferred_seqs, style_preds = net.infer(
-                seqs["val"][s], lengths["val"][s],
-                style_conditioning_embedding=style_conditioning_embeddings[1-s].cpu(
-                ).detach().numpy()
-            )
-            sents = vocab.decode_sents(inferred_seqs)
-            with open(mconf.output_dir_prefix + "epoch-{}_t{}_{}-{}.transfer".format(end_epoch, task_id, s, 1-s), 'w', encoding="utf-8") as f:
-                for sent, pred in zip(sents, style_preds):
-                    f.write(sent + '\t' + str(pred.item()) + '\n')
-            print("\t{}: ".format(s), inferred_seqs.shape)
+        logger.info("evaluatoin\n------")
+        vae_loss, rec_loss, kl1_loss, kl2_loss, * \
+            _ = net.evaluate(val_batch_generator)
+        logger.info("vae loss {}, rec loss {}, kl1 loss {}, kl2 loss {}".format(
+            vae_loss, rec_loss, kl1_loss, kl2_loss))
 
 
 def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, transfer_epochs=6, epochs_per_val=2, infer_task='', maml_batch_size=8, sub_batch_size=32, train_batch_size=64, dump_embeddings=False):
@@ -163,9 +127,6 @@ def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, t
                     query_feats.append(feat)
         assert len(support_batch_generators[0]) == len(
             query_batch_generators[0]) == mconf.num_tasks == len(support_feats) == len(query_feats)
-        for b in support_batch_generators[0][0]:
-            print(b.shape)
-        exit(0)
         support_batch_generators[0] = list(zip(*support_batch_generators[0]))
         support_batch_generators[1] = list(zip(*support_batch_generators[1]))
         query_batch_generators[0] = list(zip(*query_batch_generators[0]))
@@ -209,44 +170,32 @@ def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, t
     if load_model:
         net.load_model(mconf.model_save_dir_prefix + mconf.last_ckpt)
 
-    logger.info('maml_cp_vae loaded')
+    logger.info('maml_cp_vae created')
+
     # meta training
     if maml_epochs > 0:
         # use all tasks for maml learning, and specified tasks for fine-tuning
-        # _train_maml(
-        #     net, mconf, maml_seqs, maml_lengths, maml_labels, maml_bows, vocab=vocab,
-        #     total_epochs=maml_epochs, epochs_per_val=epochs_per_val,
-        #     support_batch_size=sub_batch_size, query_batch_size=maml_batch_size, dump_embeddings=dump_embeddings
-        # )
-        _train_maml(net, mconf, support_batch_generators, support_feats, query_batch_generators, query_feats, total_epochs=maml_epochs, vocab=vocab,
+        _train_maml(net, mconf, support_batch_generators, support_feats, query_batch_generators, query_feats, device=device, total_epochs=maml_epochs, vocab=vocab,
                     epochs_per_val=epochs_per_val, support_batch_size=sub_batch_size, query_batch_size=maml_batch_size, maml_batch_size=maml_batch_size)
-        exit(0)
         model_file = "epoch-{}.maml".format(maml_epochs)
         model_path = mconf.model_save_dir_prefix + model_file
         net.save_model(model_path)
         mconf.last_ckpt = model_file
         mconf.last_maml_ckpt = model_file
+
+    # adapt to each sub-task using task-specific training data
     if transfer_epochs > 0:
         for t in mconf.tsf_tasks:
             net.load_model(mconf.model_save_dir_prefix + mconf.last_maml_ckpt)
-            transfer_seqs = {
-                "train": seqs["train"][t-1],
-                "val": seqs["val"][t-1]
-            }
-            transfer_lengths = {
-                "train": lengths["train"][t-1],
-                "val": lengths["val"][t-1]
-            }
-            transfer_labels = {
-                "train": labels["train"][t-1],
-                "val": labels["val"][t-1]
-            }
-            transfer_bows = {
-                "train": bows["train"][t-1],
-                "val": bows["val"][t-1]
-            }
+            # batch generator
+            train_data_pth = "../data/{}/train/t{}.all"
+            train_feat_pth = "../data/{}/train/t{}_glove.npy"
+            train_data = MonoTextData(train_data_pth, False)
+            train_feat = np.load(train_feat_pth)
+            t_batch_generator = train_data.create_data_batch_feats(
+                mconf.train_batch_size, train_feat, device)
             _fine_tune(
-                net, mconf, transfer_seqs, transfer_lengths, transfer_labels, transfer_bows, vocab=vocab,
+                net, mconf, train_feat, t_batch_generator, device=device, vocab=vocab,
                 total_epochs=transfer_epochs, epochs_per_val=epochs_per_val,
                 batch_size=train_batch_size, task_id=t, dump_embeddings=dump_embeddings
             )
@@ -255,14 +204,6 @@ def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, t
             net.save_model(model_path)
             mconf.last_ckpt = model_file
             mconf.last_tsf_ckpts["t{}".format(t)] = model_file
-
-    '''
-	if maml_epochs > 0 or transfer_epochs > 0:
-		model_file = dt.datetime.now().strftime("%Y%m%d%H%M")
-		model_path = mconf.model_save_dir_prefix + model_file
-		net.save_model(model_path)
-		mconf.last_ckpt = model_file
-	'''
 
     if infer_task != '':
         infer_task = int(infer_task)

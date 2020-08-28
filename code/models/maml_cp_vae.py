@@ -43,7 +43,7 @@ class MAMLCP_VAE(object):
         self.mconf = mconf
 
     def train_maml(self, support_batch_generator, support_feat, query_batch_generator, query_feat, epochs, init_epoch=0):
-        num_batches = len(support_batch_generator[0][0])
+        num_batches = len(support_batch_generator[0])
 
         # optimizers
         meta_enc_optimizer = optim.Adam(
@@ -90,8 +90,6 @@ class MAMLCP_VAE(object):
                             self.m.parameters(), 5.0)
                         sub_dec_optimizer.step()
                         sub_enc_optimizer.step()
-                    print(
-                        f"finish task {t+1}'s {self.mconf.num_updates} steps inner-loop gradient updates")
 
                     # compute task-specific query loss
                     batch_task = [query_batch[i][t]
@@ -99,7 +97,6 @@ class MAMLCP_VAE(object):
                     loss, *_ = self.m._feed_batch(
                         query_feat_task, batch_task[0], batch_task[1])
                     query_loss.append(loss)
-                    print("finish query loss computation for task {}".format(t+1))
 
                 # restore the initial parameters
                 self.m.load_state_dict(init_state)
