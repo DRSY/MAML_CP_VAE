@@ -67,7 +67,8 @@ class MAMLCP_VAE(object):
             total_epoch_loss = 0.0
             init_state = copy.deepcopy(self.m.state_dict())
             # for each batch
-            trange_batches = trange(num_batches, desc='[]: batch /, epoch /, meta_total_loss ', leave=True)
+            trange_batches = trange(
+                num_batches, desc='[]: batch /, epoch /, meta_total_loss ', leave=True)
             for b in trange_batches:
                 support_batch = support_batch_generator[0][b], support_batch_generator[1][b]
                 query_batch_idx = random.randint(0, num_query_batch-1)
@@ -126,7 +127,7 @@ class MAMLCP_VAE(object):
                 # logging
                 timestamp = dt.datetime.now().isoformat()
                 msg = "[{}]: batch {}/{}, epoch {}/{}, meta_total_loss {:g}".format(
-                    timestamp, b+1, num_batches, epoch, epochs, avg_query_loss.detach().item())
+                    timestamp, b+1, num_batches, epoch+1, epochs, avg_query_loss.detach().item())
                 trange_batches.set_description(msg)
                 trange_batches.refresh()
                 # print(msg)

@@ -10,6 +10,7 @@
 #################################################################################################
 
 
+from tqdm import trange, tqdm
 import random
 import datetime as dt
 import time
@@ -215,7 +216,8 @@ class CP_VAE(nn.Module):
             list(self.mlp_encoder.parameters())
         # param list
         self.lstm_enc_param = list(self.lstm_encoder.parameters())
-        self.mlp_param = [p for name, p in self.mlp_encoder.named_parameters() if name != "var_embedding"]
+        self.mlp_param = [
+            p for name, p in self.mlp_encoder.named_parameters() if name != "var_embedding"]
         self.var_embedding_param = [self.mlp_encoder.var_embedding]
         self.lstm_dec_param = list(self.decoder.parameters())
         self.nn_param = self.lstm_enc_param + self.mlp_param + self.lstm_dec_param
@@ -348,7 +350,8 @@ class CP_VAE(nn.Module):
             # shuffle the batches after every epoch
             batch_ids = list(range(self.nbatch))
             random.shuffle(batch_ids)
-            for b in range(self.nbatch):
+            trange_batches = trange(self.nbatch, desc="", leave=True)
+            for b in trange_batches:
                 batch_data, batch_feat = self.batch_generator[0][batch_ids[b]
                                                                  ], self.batch_generator[1][batch_ids[b]]
                 loss, b_num_words, b_num_sents, b_total_rec_loss, b_total_kl1_loss, b_total_kl2_loss, b_total_srec_loss = self._feed_batch(feat,
@@ -374,11 +377,13 @@ class CP_VAE(nn.Module):
                 elapsed = time.time() - start_time
                 timestamp = dt.datetime.now().isoformat()
 
-                msg = "[{}]: batch {}/{}, epoch {}/{}".format(
-                    timestamp, b+1, self.nbatch, epoch+1, epochs)
-                msg += "\n\t vae_loss: {:g}, rec_loss: {:g}, kl1_loss: {:g}, kl2_loss: {:g}, srec_loss: {:g}".format(
+                msg = "batch {}/{}, epoch {}/{}".format(
+                    b+1, self.nbatch, epoch+1, epochs)
+                msg += ", vae_loss: {:g}, rec_loss: {:g}, kl1_loss: {:g}, kl2_loss: {:g}, srec_loss: {:g}".format(
                     cur_vae_loss, cur_rec_loss, cur_kl1_loss, cur_kl2_loss, cur_srec_loss)
-                print(msg)
+                # print(msg)
+                trange_batches.set_description(msg)
+                trange_batches.refresh()
                 total_rec_loss = 0
                 total_kl1_loss = 0
                 total_kl2_loss = 0

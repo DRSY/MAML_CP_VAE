@@ -195,7 +195,7 @@ def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, t
     # adapt to each sub-task using task-specific training data
     if transfer_epochs > 0:
         for t in mconf.tsf_tasks:
-            net.load_model(mconf.model_save_dir_prefix + mconf.last_maml_ckpt)
+            # net.load_model(mconf.model_save_dir_prefix + mconf.last_maml_ckpt)
             # batch generator
             train_data_pth = "../data/{}/train/t{}.all".format(mconf.corpus, t)
             train_feat_pth = "../data/{}/train/t{}_glove.npy".format(mconf.corpus, t)
