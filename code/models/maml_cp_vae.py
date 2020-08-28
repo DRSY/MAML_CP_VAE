@@ -120,7 +120,7 @@ class MAMLCP_VAE(object):
                 msg = "[{}]: batch {}/{}, epoch {}/{}, meta_total_loss {:g}".format(
                     timestamp, b+1, num_batches, epoch, epochs, avg_query_loss.detach().item())
                 print(msg)
-                if b == 2:
+                if b == 10:
                     print(f'finish {b+1} batch')
                     exit(0)
             print("--------")
@@ -133,11 +133,10 @@ class MAMLCP_VAE(object):
     def evaluate(self, val_batch_generator):
         return self.m.evaluate(*val_batch_generator)
 
-    def infer(self, task_id, train_data_pth, train_feat_pth, dev_data_pth, dev_feat_pth, test_data_pth, test_feat_pth, device):
+    def infer(self, task_id, train_data_pth, train_feat_pth, dev_data_pth, dev_feat_pth, test_data_pth, test_feat_pth, vocab, device):
         # with style label
         train_data = MonoTextData(train_data_pth, True)
         train_feat = np.load(train_feat_pth)
-        vocab = train_data.vocab
         dev_data = MonoTextData(dev_data_pth, True, vocab=vocab)
         dev_feat = np.load(dev_feat_pth)
         test_data = MonoTextData(test_data_pth, True, vocab=vocab)
@@ -209,7 +208,7 @@ class MAMLCP_VAE(object):
         o_pth = f"../output/{self.mconf.corpus}/t{task_id}"
         if not os.path.exists(os.path.dirname(o_pth)):
             os.mkdir(os.path.dirname(o_pth))
-        with open(os.path.join(o_pth, 'generated_results.txt'), "w") as f:
+        with open(o_pth + "_generated_results.txt", "w") as f:
             idx = 0
             step = 0
             n_samples = len(test_data.labels)

@@ -205,60 +205,19 @@ def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, t
             mconf.last_ckpt = model_file
             mconf.last_tsf_ckpts["t{}".format(t)] = model_file
 
+    # perform inference(style transfer) for a specific sub-task
     if infer_task != '':
         infer_task = int(infer_task)
         net.load_model(mconf.model_save_dir_prefix +
                        mconf.last_tsf_ckpts["t{}".format(infer_task)])
-        s0, s1, l0, l1, lb0, lb1, bow0, bow1 = data_processor.load_task_data(
-            infer_task, mconf.data_dir_prefix, vocab,
-            label="infer", mconf=mconf
-        )
-        infer_seqs = [s0, s1]
-        infer_lengths = [l0, l1]
-        infer_labels = [lb0, lb1]
-        infer_bows = [bow0, bow1]
-
-        content_embeddings, style_embeddings = net.get_batch_embeddings(
-            input_sequences=np.concatenate(infer_seqs, axis=0),
-            lengths=np.concatenate(infer_lengths, axis=0)
-        )
-        style_conditioning_embeddings = [
-            torch.mean(style_embeddings[:infer_lengths[0].shape[0]], axis=0),
-            torch.mean(style_embeddings[infer_lengths[0].shape[0]:], axis=0)
-        ]
-
-        if dump_embeddings:
-
-            style_embeddings = style_embeddings.cpu().detach().numpy()
-            content_embeddings = content_embeddings.cpu().detach().numpy()
-
-            style_embeddings = [
-                style_embeddings[:infer_lengths[0].shape[0]],
-                style_embeddings[infer_lengths[0].shape[0]:]
-            ]
-            content_embeddings = [
-                content_embeddings[:infer_lengths[0].shape[0]],
-                content_embeddings[infer_lengths[0].shape[0]:]
-            ]
-            with open(mconf.emb_save_dir_prefix + "t{}/infer.emb".format(infer_task), "wb") as f:
-                embeddings = {
-                    "style": style_embeddings,
-                    "content": content_embeddings
-                }
-                pickle.dump(embeddings, f)
-                print("dumped embeddings to {}".format(
-                    mconf.emb_save_dir_prefix + "t{}/infer.emb".format(infer_task)))
-        for s in [0, 1]:
-            inferred_seqs, style_preds = net.infer(
-                infer_seqs[s], infer_lengths[s],
-                style_conditioning_embedding=style_conditioning_embeddings[1-s].cpu(
-                ).detach().numpy()
-            )
-            sents = vocab.decode_sents(inferred_seqs)
-            with open(mconf.output_dir_prefix + "infer_t{}_{}-{}".format(infer_task, s, 1-s), 'w', encoding="utf-8") as f:
-                for sent, pred in zip(sents, style_preds):
-                    f.write(sent + '\t' + str(pred.item()) + '\n')
-
+        train_data_pth = "../data/{}/train/t{}.label.all"
+        train_feat_pth = "../data/{}/train/t{}_glove.npy"
+        dev_data_pth = "../data/{}/val/t{}.label.all"
+        dev_feat_pth = "../data/{}/val/t{}_glove.npy"
+        test_data_pth = "../data/{}/val/t{}.label.all"
+        test_feat_pth = "../data/{}/val/t{}_glove.npy"
+        net.infer(infer_task, train_data_pth, train_feat_pth, dev_data_pth,
+                  dev_feat_pth, test_data_pth, test_feat_pth, vocab, device)
     return net
 
 
