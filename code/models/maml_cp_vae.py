@@ -120,9 +120,6 @@ class MAMLCP_VAE(object):
                 msg = "[{}]: batch {}/{}, epoch {}/{}, meta_total_loss {:g}".format(
                     timestamp, b+1, num_batches, epoch, epochs, avg_query_loss.detach().item())
                 print(msg)
-                if b == 10:
-                    print(f'finish {b+1} batch')
-                    exit(0)
             print("--------")
             print("epoch {}/{}: acc_total_loss {:g}".format(epoch +
                                                             1, epochs, total_epoch_loss))

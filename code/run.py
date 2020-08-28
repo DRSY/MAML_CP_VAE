@@ -25,6 +25,7 @@ def _train_maml(net, mconf, support_batch_generators, support_feats, query_batch
     turns = total_epochs // epochs_per_val
     if total_epochs % epochs_per_val:
         turns += 1
+    logger.info("preparing val batch generator for each sub-task")
     val_batch_generators = []
     for t in range(1, mconf.num_tasks+1):
         data_pth = f"../data/{mconf.corpus}/val/t{t}.all"
@@ -47,10 +48,13 @@ def _train_maml(net, mconf, support_batch_generators, support_feats, query_batch
             epochs=end_epoch,
             init_epoch=init_epoch
         )
+        logger.info("_train_maml first turn finished")
+        exit(0)
         model_file = "epoch-{}.maml".format(end_epoch)
         model_path = mconf.model_save_dir_prefix + model_file
         net.save_model(model_path)
         mconf.last_maml_ckpt = model_file
+        logger.info("maml training epoch {} done".format(end_epoch))
         logger.info("evaluation\n--------")
         for t in range(mconf.num_tasks):
             logger.info("inferring task {} ...".format(t+1))
@@ -188,12 +192,12 @@ def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, t
         for t in mconf.tsf_tasks:
             net.load_model(mconf.model_save_dir_prefix + mconf.last_maml_ckpt)
             # batch generator
-            train_data_pth = "../data/{}/train/t{}.all"
-            train_feat_pth = "../data/{}/train/t{}_glove.npy"
+            train_data_pth = "../data/{}/train/t{}.all".format(mconf.corpus, t)
+            train_feat_pth = "../data/{}/train/t{}_glove.npy".format(mconf.corpus, t)
             train_data = MonoTextData(train_data_pth, False)
             train_feat = np.load(train_feat_pth)
             t_batch_generator = train_data.create_data_batch_feats(
-                mconf.train_batch_size, train_feat, device)
+                train_batch_size, train_feat, device)
             _fine_tune(
                 net, mconf, train_feat, t_batch_generator, device=device, vocab=vocab,
                 total_epochs=transfer_epochs, epochs_per_val=epochs_per_val,
