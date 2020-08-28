@@ -56,9 +56,11 @@ class MAMLCP_VAE(object):
         sub_dec_optimizer = optim.SGD(
             self.m.decoder.parameters(), lr=self.mconf.sub_dec_lr)
 
+        # meta-train from init_epoch to epochs
         for epoch in range(init_epoch, epochs):
             total_epoch_loss = 0.0
             init_state = copy.deepcopy(self.m.state_dict())
+            # for each batch
             for b in range(num_batches):
                 support_batch = support_batch_generator[0][b], support_batch_generator[1][b]
                 query_batch = query_batch_generator[0][b], query_batch_generator[1][b]
@@ -91,7 +93,7 @@ class MAMLCP_VAE(object):
                     print(
                         f"finish task {t+1}'s {self.mconf.num_updates} steps inner-loop gradient updates")
 
-                    # query loss
+                    # compute task-specific query loss
                     batch_task = [query_batch[i][t]
                                   for i in range(len(query_batch))]
                     loss, *_ = self.m._feed_batch(
@@ -102,6 +104,7 @@ class MAMLCP_VAE(object):
                 # restore the initial parameters
                 self.m.load_state_dict(init_state)
 
+                # average query loss for each sub-task
                 avg_query_loss = torch.stack(
                     query_loss, dim=0).sum() / self.num_tasks
                 total_epoch_loss += avg_query_loss.item()
@@ -115,6 +118,7 @@ class MAMLCP_VAE(object):
                 # set the new initial parameters
                 init_state = copy.deepcopy(self.m.state_dict())
 
+                # logging
                 timestamp = dt.datetime.now().isoformat()
                 msg = "[{}]: batch {}/{}, epoch {}/{}, meta_total_loss {:g}".format(
                     timestamp, b+1, num_batches, epoch, epochs, avg_query_loss.detach().item())
@@ -241,7 +245,8 @@ class MAMLCP_VAE(object):
                 step += 1
                 if step % 100 == 0:
                     print(step, idx)
-        print("inference for corpus {}, task {} finished".format(self.mconf.corpus, task_id))
+        print("inference for corpus {}, task {} finished".format(
+            self.mconf.corpus, task_id))
 
     def save_model(self, path):
         self.m.save_model(path)
