@@ -47,6 +47,7 @@ class MAMLCP_VAE(object):
         self.mconf = mconf
 
     def train_maml(self, support_batch_generator, support_feat, query_batch_generator, query_feat, epochs, init_epoch=0):
+        self.m.train()
         num_batches = len(support_batch_generator[0])
 
         # optimizers
