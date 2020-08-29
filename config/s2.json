@@ -28,7 +28,6 @@
     "eps": 1e-08,
     "corpus": "s2",
     "last_ckpt": "epoch-1.maml",
-    "wordvec_path": "../ckpt/s2/wordvec.0",
     "model_save_dir_prefix": "../ckpt/s2/",
     "emb_save_dir_prefix": "../emb/s2/",
     "processed_data_save_dir_prefix": "../data/s2/processed/",

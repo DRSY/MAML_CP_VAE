@@ -52,6 +52,8 @@ def _train_maml(net, mconf, support_batch_generators, support_feats, query_batch
         model_file = "epoch-{}.maml".format(end_epoch)
         model_path = mconf.model_save_dir_prefix + model_file
         net.save_model(model_path)
+        logger.info(
+            "maml-training checkpoint file {} saved at {} epoch".format(model_path, end_epoch))
         mconf.last_maml_ckpt = model_file
         logger.info("maml training epoch {} done".format(end_epoch))
         logger.info("evaluation\n--------")
@@ -65,8 +67,8 @@ def _train_maml(net, mconf, support_batch_generators, support_feats, query_batch
             val_losses += vae_loss
         if best_val_loss > val_losses / mconf.num_tasks:
             best_val_loss = val_losses / mconf.num_tasks
-        logger.info("avg val loss for epoch [{}-{}] is {}".format(init_epoch, end_epoch, val_losses / mconf.num_tasks))
-        
+        logger.info("avg val loss for epoch [{}-{}] is {}".format(
+            init_epoch, end_epoch, val_losses / mconf.num_tasks))
 
 
 def _fine_tune(net, mconf, feat, batch_generator, vocab, device=torch.device('cpu'), total_epochs=6, epochs_per_val=2, batch_size=64, task_id=1, dump_embeddings=False):
@@ -93,6 +95,8 @@ def _fine_tune(net, mconf, feat, batch_generator, vocab, device=torch.device('cp
         model_file = "epoch-{}.t{}".format(end_epoch, task_id)
         model_path = mconf.model_save_dir_prefix + model_file
         net.save_model(model_path)
+        logger.info("maml-fine-tuning checkpoint file {} for task {} saved at epoch {}".format(
+            model_path, task_id, end_epoch))
         mconf.last_tsf_ckpts["t{}".format(task_id)] = model_file
         logger.info("evaluatoin\n------")
         vae_loss, rec_loss, kl1_loss, kl2_loss, * \
@@ -189,16 +193,20 @@ def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, t
         model_file = "epoch-{}.maml".format(maml_epochs)
         model_path = mconf.model_save_dir_prefix + model_file
         net.save_model(model_path)
+        logger.info(
+            "maml-training checkpoint file {} saved at epoch {}".format(model_path, maml_epochs))
         mconf.last_ckpt = model_file
         mconf.last_maml_ckpt = model_file
 
     # adapt to each sub-task using task-specific training data
     if transfer_epochs > 0:
         for t in mconf.tsf_tasks:
-            # net.load_model(mconf.model_save_dir_prefix + mconf.last_maml_ckpt)
+            net.load_model(mconf.model_save_dir_prefix + mconf.last_maml_ckpt)
+            # net.load_model(mconf.model_save_dir_prefix + "epoch-15.maml")
             # batch generator
             train_data_pth = "../data/{}/train/t{}.all".format(mconf.corpus, t)
-            train_feat_pth = "../data/{}/train/t{}_glove.npy".format(mconf.corpus, t)
+            train_feat_pth = "../data/{}/train/t{}_glove.npy".format(
+                mconf.corpus, t)
             train_data = MonoTextData(train_data_pth, False)
             train_feat = np.load(train_feat_pth)
             t_batch_generator = train_data.create_data_batch_feats(
@@ -211,6 +219,8 @@ def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, t
             model_file = "epoch-{}.t{}".format(transfer_epochs, t)
             model_path = mconf.model_save_dir_prefix + model_file
             net.save_model(model_path)
+            logger.info("maml-fine-tuning checkpoint file {} for task {} saved at epoch {}".format(
+                model_path, t, transfer_epochs))
             mconf.last_ckpt = model_file
             mconf.last_tsf_ckpts["t{}".format(t)] = model_file
 
