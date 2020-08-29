@@ -9,6 +9,8 @@ __pycache__/
 # test module 个人习惯，测试目录去掉
 /test/
 
+/ckpt/
+
 # Distribution / packaging
 .Python
 build/
