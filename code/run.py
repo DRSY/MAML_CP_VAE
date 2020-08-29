@@ -107,18 +107,18 @@ def _fine_tune(net, mconf, feat, batch_generator, vocab, device=torch.device('cp
 
 def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, transfer_epochs=6, epochs_per_val=2, infer_task='', maml_batch_size=8, sub_batch_size=32, train_batch_size=64, dump_embeddings=False):
     torch.random.manual_seed(42)
+    corpus = mconf.corpus
+    data_path = "../data/{}".format(corpus)
+    corpus_data_pth = os.path.join(data_path, "text.pretrain")
+    corpus_data = MonoTextData(corpus_data_pth, False)
+    vocab = corpus_data.vocab
+    logger.info("size of whole vocab: {}".format(len(vocab)))
     if maml_epochs > 0 or transfer_epochs > 0:
         logger.info("loading data from maml_cp_vae")
-        corpus = mconf.corpus
         support_batch_generators = [[], []]
         query_batch_generators = [[], []]
         support_feats = []
         query_feats = []
-        data_path = "../data/{}".format(corpus)
-        corpus_data_pth = os.path.join(data_path, "text.pretrain")
-        corpus_data = MonoTextData(corpus_data_pth, False)
-        vocab = corpus_data.vocab
-        logger.info("size of whole vocab: {}".format(len(vocab)))
         for label in ['train', 'val']:
             for t in range(1, mconf.num_tasks+1):
                 data_pth = os.path.join(data_path+f"/{label}", f"t{t}.all")
@@ -224,7 +224,7 @@ def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, t
             mconf.last_ckpt = model_file
             mconf.last_tsf_ckpts["t{}".format(t)] = model_file
 
-    # perform inference(style transfer) for a specific sub-task
+    # perform inference(style transfer) for a specific sub-task(specified as infer_task)
     if infer_task != '':
         infer_task = int(infer_task)
         net.load_model(mconf.model_save_dir_prefix +
