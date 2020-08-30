@@ -153,11 +153,9 @@ def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, t
             len(support_batch_generators[0][0])))
     elif infer_task != '':
         print("inference mode")
-        with open(mconf.processed_data_save_dir_prefix + "{}t/vocab".format(mconf.num_tasks), "rb") as f:
-            vocab = pickle.load(f)
-
-        mconf.vocab_size = vocab._size
-        mconf.bow_size = vocab._bows
+        # with open(mconf.processed_data_save_dir_prefix + "{}t/vocab".format(mconf.num_tasks), "rb") as f:
+        #     vocab = pickle.load(f)
+        mconf.vocab_size = len(vocab)
 
     else:
         print("no operation, exiting ...")
@@ -227,16 +225,24 @@ def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, t
     # perform inference(style transfer) for a specific sub-task(specified as infer_task)
     if infer_task != '':
         infer_task = int(infer_task)
+        # net.load_model(mconf.model_save_dir_prefix +
+        #                mconf.last_tsf_ckpts["t{}".format(infer_task)])
         net.load_model(mconf.model_save_dir_prefix +
-                       mconf.last_tsf_ckpts["t{}".format(infer_task)])
-        logger.info("model loaded from {} for inference on task {}".format(
-            mconf.model_save_dir_prefix+mconf.last_tsf_ckpts["t{}".format(infer_task)]), infer_task)
-        train_data_pth = "../data/{}/train/t{}.label.all"
-        train_feat_pth = "../data/{}/train/t{}_glove.npy"
-        dev_data_pth = "../data/{}/val/t{}.label.all"
-        dev_feat_pth = "../data/{}/val/t{}_glove.npy"
-        test_data_pth = "../data/{}/val/t{}.label.all"
-        test_feat_pth = "../data/{}/val/t{}_glove.npy"
+                       "epoch-10.t{}".format(infer_task))
+        logger.info("fine-tuned model loaded from {}".format(mconf.model_save_dir_prefix +
+                                                             "epoch-10.t{}".format(infer_task)))
+        train_data_pth = "../data/{}/train/t{}.label.all".format(
+            corpus, infer_task)
+        train_feat_pth = "../data/{}/train/t{}_glove.npy".format(
+            corpus, infer_task)
+        dev_data_pth = "../data/{}/val/t{}.label.all".format(
+            corpus, infer_task)
+        dev_feat_pth = "../data/{}/val/t{}_glove.npy".format(
+            corpus, infer_task)
+        test_data_pth = "../data/{}/val/t{}.label.all".format(
+            corpus, infer_task)
+        test_feat_pth = "../data/{}/val/t{}_glove.npy".format(
+            corpus, infer_task)
         net.infer(infer_task, train_data_pth, train_feat_pth, dev_data_pth,
                   dev_feat_pth, test_data_pth, test_feat_pth, vocab, device)
     return net
