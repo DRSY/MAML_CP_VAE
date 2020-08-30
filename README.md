@@ -11,3 +11,24 @@ updated soom.
 - scipy
 
 ## Usage
+enter the code dir
+```bash
+cd maml-cp-vae/code
+```
+generate corpus for building vocab
+```bash
+bash scripts/get_pretrain_text.sh
+```
+make dirs
+```bash
+bash scripts/make_dirs.sh
+```
+set the corpus(s1 or s2)
+```bash
+export corpus=s1
+export s=1
+```
+start training and inference
+```bash
+python main.py --configpath ../config/s$s.json --corpus $corpus --maml-epochs 20 --transfer-epochs 10 --epochs-per-val 5 --maml-batch-size 8 --sub-batch-size --train-batch-size 16 --device-idx 0
+```
