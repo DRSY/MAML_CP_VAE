@@ -229,6 +229,8 @@ def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, t
         infer_task = int(infer_task)
         net.load_model(mconf.model_save_dir_prefix +
                        mconf.last_tsf_ckpts["t{}".format(infer_task)])
+        logger.info("model loaded from {} for inference on task {}".format(
+            mconf.model_save_dir_prefix+mconf.last_tsf_ckpts["t{}".format(infer_task)]), infer_task)
         train_data_pth = "../data/{}/train/t{}.label.all"
         train_feat_pth = "../data/{}/train/t{}_glove.npy"
         dev_data_pth = "../data/{}/val/t{}.label.all"
