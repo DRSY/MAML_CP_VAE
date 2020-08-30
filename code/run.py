@@ -68,7 +68,7 @@ def _train_maml(net, mconf, support_batch_generators, support_feats, query_batch
         if best_val_loss > val_losses / mconf.num_tasks:
             best_val_loss = val_losses / mconf.num_tasks
         logger.info("avg val loss for epoch [{}-{}] is {}".format(
-            init_epoch, end_epoch, val_losses / mconf.num_tasks))
+            init_epoch+1, end_epoch, val_losses / mconf.num_tasks))
 
 
 def _fine_tune(net, mconf, feat, batch_generator, vocab, device=torch.device('cpu'), total_epochs=6, epochs_per_val=2, batch_size=64, task_id=1, dump_embeddings=False):
