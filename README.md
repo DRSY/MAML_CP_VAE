@@ -42,3 +42,6 @@ inference after task-specific fine-tuning
 ```bash
 bash scripts/infer_tsf.sh
 ```
+
+## Acknowledgement
+Underpinning code for cp-vae is adapted from [CP-VAE](https://github.com/BorealisAI/CP-VAE).
