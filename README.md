@@ -1,6 +1,6 @@
 # MAML_CP_VAE
-This repo contains Pytorch implementation of the paper ST2:Small-data Text Style Transfer via Multi-task Meta-Learning. Up to now only CP-VAE version is contained, CrossAlign and VAE versions will be 
-updated soom.
+This repository contains Pytorch implementation of the paper ST2:Small-data Text Style Transfer via Multi-task Meta-Learning. Up to now only CP-VAE version is contained, CrossAlign and VAE versions will be 
+updated soon.
 
 ## Dependencies
 - torch==1.3.1
