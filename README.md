@@ -11,6 +11,11 @@ updated soon.
 - scipy
 
 ## Usage
+clone the repo and install required packages
+```bash
+git clone https://github.com/DRSY/MAML_CP_VAE.git
+pip install -r requirements.txt
+```
 enter the code dir
 ```bash
 cd maml-cp-vae/code
