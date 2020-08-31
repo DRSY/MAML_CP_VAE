@@ -83,6 +83,10 @@ def _fine_tune(net, mconf, feat, batch_generator, vocab, device=torch.device('cp
     val_feat = np.load(feat_pth)
     val_batch_generator = data.create_data_batch_feats(
         batch_size, val_feat, device)
+    best_loss = 1e9
+    not_improved = 0
+    patience = 3
+    early_stop_cnt = 0
     for turn in range(turns):
         init_epoch = turn * epochs_per_val
         end_epoch = min(total_epochs, (turn + 1) * epochs_per_val)
@@ -103,6 +107,19 @@ def _fine_tune(net, mconf, feat, batch_generator, vocab, device=torch.device('cp
             _ = net.evaluate(val_batch_generator)
         logger.info("vae loss {}, rec loss {}, kl1 loss {}, kl2 loss {}".format(
             vae_loss, rec_loss, kl1_loss, kl2_loss))
+        if vae_loss > best_loss:
+            not_improved += 1
+            if not_improved >= patience:
+                early_stop_cnt += 1
+                not_improved = 0
+                net.m.dec_lr *= 0.5
+        if early_stop_cnt >= 2:
+            break
+        if vae_loss < best_loss:
+            best_loss = vae_loss
+            not_improved = 0
+            net.save_model(mconf.model_save_dir_prefix + "best.t{}".format(task_id))
+            logger.info("best model for task {} saved at epoch {}".format(task_id, end_epoch))
 
 
 def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, transfer_epochs=6, epochs_per_val=2, infer_task='', maml_batch_size=8, sub_batch_size=32, train_batch_size=64, dump_embeddings=False):
@@ -228,9 +245,8 @@ def run_maml(mconf, device, load_data=False, load_model=False, maml_epochs=10, t
         # net.load_model(mconf.model_save_dir_prefix +
         #                mconf.last_tsf_ckpts["t{}".format(infer_task)])
         net.load_model(mconf.model_save_dir_prefix +
-                       "epoch-10.t{}".format(infer_task))
-        logger.info("fine-tuned model loaded from {}".format(mconf.model_save_dir_prefix +
-                                                             "epoch-10.t{}".format(infer_task)))
+                       "best.t{}".format(infer_task))
+        logger.info("model loaded from {} for task {}".format(mconf.model_save_dir_prefix+"best.t{}".format(infer_task), infer_task))
         train_data_pth = "../data/{}/train/t{}.label.all".format(
             corpus, infer_task)
         train_feat_pth = "../data/{}/train/t{}_glove.npy".format(
