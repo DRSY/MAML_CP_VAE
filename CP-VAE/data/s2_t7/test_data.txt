@@ -1,0 +1,2000 @@
+0	look in on me , and talk with me , or i ’ ll attack even without a weapon .
+0	what ’ s the matter ?
+0	look , i have a weapon , the best sword a soldier could have .
+0	i ’ ve fought my way through obstacles twenty times more terrifying than you with this weapon .
+0	who can control his fate ?
+0	i ’ m not like that now .
+0	don ’ t be afraid , even though you see me with a weapon .
+0	this is the end of my journey , the end of my life .
+0	are you backing away in fear ?
+0	there ’ s no reason to be afraid .
+0	where would othello go ? —oh , look at you !
+0	you ’ re as pale as your nightgown !
+0	you ’ re cold , cold , and you were never hot with lust .
+0	whip me , you devils , so i don ’ t have to look at this heavenly sight !
+0	where is that poor rash man ?
+0	you mean the man who used to be othello ?
+0	where ’ s that snake ?
+0	i don ’ t like it that you knew about this , iago .
+0	damn it , you ’ re not listening to me !
+0	you told me you hated him .
+0	but that ’ s just a fairy tale .
+0	if you are a devil , i won ’ t be able to kill you .
+0	take his sword away from him .
+0	i ’ m bleeding , but you didn ’ t kill me .
+0	i ’ m not sorry , either .
+0	i want you to live , since to me , death is happiness .
+0	this poor guy ’ s partly confessed his plan .
+0	did you plan cassio ’ s death with him ?
+0	dear general , i never gave you any reason to hate me .
+0	i believe you , and i ask you to forgive me .
+0	will you please make this half-devil say why he tricked me and damned my soul ?
+0	don ’ t ask me anything .
+0	you know what you know .
+0	from this moment on , i ’ ll never say another word .
+0	what , not even to pray ?
+0	well , do your best .
+0	this one talks about how roderigo should kill cassio .
+0	oh , you wicked scoundrel !
+0	cassio , how did you get my wife ’ s handkerchief ?
+0	you ’ re stripped of your power and your command , and cassio will govern cyprus .
+0	you ’ ll remain a prisoner until we bring your crimes to the venetian government.—okay , take him away .
+0	when you record these sad events in your letters , please describe me exactly as i am .
+0	don ’ t tone things down or exaggerate them out of hostility .
+0	oh , what a bloody end to all this !
+0	everything we ’ ve heard is bad .
+0	what do you think about this change ?
+0	they can ’ t have changed ; there ’ s no way this could be true .
+0	it ’ s a trick to confuse us .
+0	here ’ s some more news coming in .
+0	that ’ s just what i thought .
+0	how many , can you guess ?
+0	now they ’ ve turned around and are clearly heading for cyprus .
+0	then it ’ s certain they ’ re heading for cyprus .
+0	is marcus luccicos in town ?
+0	no , he ’ s in florence .
+0	here come brabantio and the brave moor .
+0	forgive me , your grace .
+0	why , what ’ s the matter ?
+0	it ’ s my daughter !
+0	she ’ s dead to me .
+0	i humbly thank you , sir .
+0	we ’ re sorry to hear this .
+0	nothing , but this is true .
+0	there ’ s nothing more .
+0	i ’ m awkward in my speech and i ’ m not a smooth talker .
+0	she blushes at the slightest thing .
+0	the devil must be behind this .
+0	therefore i say again that he must have used some powerful drug or magic potion on her .
+0	or did you agree to this as equals ?
+0	you know where she is .
+0	when i talked about all these things , desdemona used to listen attentively .
+0	i took the hint and spoke to her .
+0	that ’ s the only witchcraft i ever used .
+0	here comes my wife now .
+0	she ’ ll confirm everything .
+0	i think a story like that would win my own daughter over .
+0	if she admits she wanted this , then i won ’ t blame othello.—come here , my child .
+0	who do you obey here ?
+0	father , this isn ’ t easy for me .
+0	you ’ re the one i have to obey .
+0	i ’ m your daughter .
+0	i ’ m finished , then .
+0	duke , please go ahead with your state business .
+0	i ’ d rather adopt a child than have one of my own.—come here , moor .
+0	you would have made me treat them like a tyrant.—i ’ m done , my lord .
+0	please , i ’ m asking you , go ahead and get back to your state affairs .
+0	the turks are heading for cyprus with a powerful fleet .
+0	she can stay at her father ’ s house .
+0	i won ’ t allow it .
+0	dear duke , please listen to what i have to say .
+0	what do you want to do , desdemona ?
+0	when i fell in love with othello i made up my mind that i wanted to live with him .
+0	i saw othello ’ s true face when i saw his mind .
+0	let me go with him .
+0	please allow her to do this .
+0	you can decide that privately .
+0	what ’ s important is the urgency of this mission .
+0	you ’ ll have to leave tonight .
+0	with all my heart , i ’ ll go right away .
+0	we ’ ll meet again at nine in the morning .
+0	he ’ ll accompany my wife , and bring whatever else you think i might need .
+0	which any peace-lover can do .
+0	his military understanding is all theory , no practice .
+0	and there ’ s nothing i can do about it .
+0	that ’ s the curse of military service .
+0	now , you tell me : should i feel loyal to the moor ?
+0	if you don ’ t like him you should quit .
+0	i ’ m serving under him to take advantage of him .
+0	we can ’ t all be masters , and not all masters should be followed .
+0	they ought to be whipped for being so stupid .
+0	keep an eye on her , moor .
+0	she lied to me , and she may lie to you .
+0	iago , i ’ m leaving my dear desdemona with you .
+0	have your wife attend to her , and bring them along as soon as you can .
+0	we ’ re on a tight schedule .
+0	what do you have to say , noble friend ?
+0	what do you think i should do ?
+0	go to bed , and sleep .
+0	i ’ m going to go drown myself .
+0	if you do that , i ’ ll never respect you again .
+0	why , you silly man !
+0	can ’ t help it ?
+0	what we are is up to us .
+0	our bodies are like gardens and our willpower is like the gardener .
+0	thankfully , we have reason to cool our raging lusts .
+0	i don ’ t believe it .
+0	you feel love because you feel lust and you have no willpower .
+0	come on , be a man .
+0	drowning is for cats or blind puppies—don ’ t drown yourself !
+0	i ’ ve told you i ’ m your friend , and i ’ ll stick by you .
+0	i ’ ve never been more useful to you than i will be now .
+0	here ’ s what you ’ ll do .
+0	moors are moody people.—so sell your lands and raise a lot of cash .
+0	what seems sweet to him now will soon turn bitter .
+0	she ’ ll have to have it .
+0	so have your money ready .
+0	if you want to go to hell , there are better ways to do it than killing yourself .
+0	raise all the money you can .
+0	and to hell with drowning yourself !
+0	that ’ s completely beside the point .
+0	go now and get cash .
+0	i told you before , and i ’ ll tell you again and again : i hate the moor .
+0	so let ’ s join forces and get revenge .
+0	we ’ ll speak again tomorrow .
+0	where will we meet in the morning ?
+0	i ’ ll be there early .
+0	no more talk about killing yourself , okay ?
+0	i ’ ve changed my mind about that .
+0	put a lot of cash together .
+0	i ’ m going to sell all my land .
+0	that ’ s how i always do it , getting money from fools .
+0	i ’ m not sure it ’ s true , but just the suspicion is enough for me .
+0	he thinks highly of me .
+0	cassio ’ s a handsome man .
+0	let ’ s see , how can i
+0	get his position and use him to hurt othello at the same time ?
+0	i ’ ve worked it out .
+0	what can you see out on the ocean ?
+0	it was windy on shore too .
+0	a big blast of wind shook our fortifications .
+0	what do you think will be the result of this storm ?
+0	the turkish navy will be broken up .
+0	i ’ ve never seen the waters so disturbed .
+0	if the turkish fleet isn ’ t protected in some harbor , their men must all be drowned .
+0	no ship could survive this storm .
+0	i ’ ve got news , boys , the war ’ s over !
+0	this terrible storm has smashed the turks so badly that their plans are ruined .
+0	one of our ships has reported that it saw most of their fleet shipwrecked .
+0	michael cassio , lieutenant of the moor othello , has arrived on shore .
+0	the moor himself is still at sea .
+0	i ’ m happy about that .
+0	he ’ ll be a good governor .
+0	the two of them were separated during the storm .
+0	i hope to god othello ’ s all right .
+0	let ’ s do that .
+0	every minute we expect more ships to arrive .
+0	thanks , you brave men who defend this island and respect othello .
+0	i hope heaven protects him from the weather , because i lost sight of him on the stormy sea .
+0	yes , it ’ s well built , and the ship ’ s pilot is very expert and experienced .
+0	what ’ s all that shouting about ?
+0	please go find out for certain who has arrived .
+0	i ’ ll do that .
+0	good lieutenant , is your general married ?
+0	a man named iago , the general ’ s ensign .
+0	look , the precious desdemona has arrived on shore .
+0	we should all kneel before her , men of cyprus !
+0	greetings , my lady , and may god always be with you .
+0	thank you , brave cassio .
+0	is there any news about my husband ?
+0	he hasn ’ t arrived yet .
+0	as far as i know , he ’ s okay and will arrive here soon .
+0	oh , but i ’ m worried .
+0	how did you two get separated ?
+0	go find out the news .
+0	i ’ m not who i appear to be .
+0	do it , and shout like the city ’ s on fire .
+0	check on your daughter , your house , your money !
+0	she ’ s always talking when i want to sleep .
+0	i admit that in front of you , my lady , she keeps a bit quiet .
+0	you have no reason to say that .
+0	come on , come on .
+0	in your own kitchens you act like wildcats .
+0	shame on you , you slanderer !
+0	no , it ’ s true , or if it ’ s not , i ’ m a villain .
+0	you wake up to have fun , and you start work when you go to bed .
+0	no , i don ’ t .
+0	but if you had to say something nice about me , what would you say ?
+0	don ’ t make me do it , my lady .
+0	i ’ m critical by nature .
+0	i ’ m not as happy as i seem .
+0	come on , what would you say about me ?
+0	this is getting worse and worse !
+0	what if she ’ s pretty but stupid ?
+0	you don ’ t know a thing !
+0	you give your best praise to the worst women .
+0	would raise babies and clip coupons .
+0	oh , that ’ s pathetic !
+0	don ’ t listen to him , emilia , even though he ’ s your husband .
+0	what do you think about him , cassio ?
+0	isn ’ t he a horrible man ?
+0	he speaks bluntly , madam .
+0	he ’ s more of a soldier than a wise man .
+0	let ’ s go greet him when he lands .
+0	look , here he comes .
+0	i ’ m amazed you got here before me .
+0	but i ’ m overjoyed !
+0	god willing , our love and our happiness will only increase as we get older .
+0	i can ’ t talk about my happiness anymore .
+0	it ’ s too much .
+0	let ’ s go up to the castle .
+0	the war ’ s over and the turks are drowned .
+0	and bring the ship ’ s captain to the castle .
+0	he ’ s a good man.—let ’ s go , desdemona .
+0	meet me down at the harbor.—come here .
+0	lieutenant cassio will be on guard duty tonight .
+0	but first , i have to tell you that desdemona ’ s completely in love with him .
+0	be quiet and listen to me .
+0	othello isn ’ t any of those things .
+0	i can ’ t believe that .
+0	she ’ s very moral .
+0	they were lusting after each other .
+0	but listen to me ; let me guide you .
+0	i brought you here from venice .
+0	be on guard duty tonight .
+0	cassio doesn ’ t know you .
+0	i ’ ll be nearby .
+0	he ’ s hot-tempered , and he might try to hit you with his staff .
+0	try to get him to do that .
+0	to get what you want , you need to get cassio out of the way .
+0	i ’ ll do it , if you help me out .
+0	meet me in a little while at the citadel .
+0	i need to get othello ’ s things from the ship .
+0	i won ’ t be satisfied until i get even with him , wife for wife .
+0	for besides the good news , we are also celebrating his marriage .
+0	that ’ s the end of the announcement .
+0	there will be a feast from five o'clock until eleven .
+0	god bless the island of cyprus and our noble general othello !
+0	iago ’ s a good man .
+0	come talk to me tomorrow as early as you can.—come with me , my dear love .
+0	it ’ s time for us to stand guard .
+0	the general got rid of us early tonight so he could be with desdemona.—i can ’ t blame him .
+0	what ’ s the reason for this horrible shouting ?
+0	what ’ s the matter ?
+0	sir , is everyone in your family at home ?
+0	why are you asking me that ?
+0	for god ’ s sake , sir , you ’ ve been robbed .
+0	your heart ’ s going to break .
+0	it ’ s like half your soul ’ s been ripped out .
+0	at this very minute an old black ram is having sex with your little white lamb .
+0	wake up , wake up , ring a bell and wake up all the snoring citizens .
+0	get up , i tell you !
+0	do you recognize my voice , noble lord ?
+0	my name ’ s roderigo .
+0	i told you not to hang around my house .
+0	i ’ ve already told you quite plainly that my daughter will never marry you .
+0	yes , she ’ s young and tender .
+0	but she ’ s modest and ladylike too .
+0	and when she speaks , doesn ’ t her voice stir up passion ?
+0	she ’ s a perfect woman , it ’ s true .
+0	well , good luck to them tonight in bed !
+0	i ’ m not much of a drinker .
+0	i wish there was less social pressure to drink .
+0	oh , but these are our friends .
+0	i ’ ll do most of the drinking for you .
+0	what are you talking about , man ?
+0	i ’ ll do it , but i don ’ t like it .
+0	if the future turns out as i hope it will , i ’ m all set for success .
+0	my god , they ’ ve given me a lot to drink .
+0	no , it was a little one , not more than a pint .
+0	my god , what a great song !
+0	i learned it in england , where they have a talent for drinking .
+0	are englishmen really such heavy drinkers ?
+0	they drink danes under the table , and it takes them no effort at all to out-drink germans .
+0	let ’ s drink to our general !
+0	i ’ ll drink as much as you do !
+0	god , that song ’ s even better than the other one .
+0	do you want to hear it again ?
+0	no , because we shouldn ’ t be doing that—stuff .
+0	that ’ s true , lieutenant .
+0	speaking for myself—and no offense to the general or anyone else—i hope i ’ m going to heaven .
+0	okay , but please not before me .
+0	the lieutenant has to get to heaven before the ensign .
+0	by the way , i don ’ t want anyone thinking i ’ m drunk .
+0	i ’ m not drunk .
+0	i can stand well enough , and i can speak just fine .
+0	yes , you ’ re speaking very well .
+0	so don ’ t think that i ’ m drunk .
+0	it ’ s too bad .
+0	but is he often like this ?
+0	he drinks like this every night before he goes to sleep .
+0	he ’ d stay up all night and all day if he didn ’ t drink himself to sleep .
+0	the general should be informed about this .
+0	don ’ t you think so ?
+0	we should definitely say something to the moor .
+0	now i ’ ve done a good day ’ s work .
+0	you must all keep up this united front .
+0	don ’ t simply hide your hatred .
+0	swear your love for each other .
+0	on my honor , i swear i love rivers with all my heart .
+0	and i love hastings with all my heart .
+0	take my hand , hastings .
+0	dorset , embrace hastings.—hastings , express your affection for the marquess of dorset .
+0	i swear i will never break this promise of love .
+0	and so do i , my lord .
+0	noble buckingham , your promise is like medicine to my ailing heart .
+0	and just in time , here he comes with sir richard ratcliffe .
+0	good morning to my sovereign king and queen .
+0	happy indeed , the way we have spent the day .
+0	what blessed work , my king .
+0	i hate it and want all good men ’ s love .
+0	today shall always be remembered as a holy day .
+0	if only all struggles ended this well .
+0	please pardon our brother clarence .
+0	why , madam , have i offered you my love only to be flouted in front of the king ?
+0	who doesn ’ t know that the good duke is dead ?
+0	who doesn ’ t know he ’ s dead ?
+0	oh my god , what a terrible world this is !
+0	do i look as pale as everyone else does , lord dorset ?
+0	but i reversed the death sentence .
+0	well , the poor man died by your first order , which was carried by a winged messenger .
+0	some tardy cripple must have taken the counter-order , who came after clarence was already buried .
+0	my soul is full of sorrow .
+0	i will not rise until your highness hears me .
+0	then hurry up and tell me what you want .
+0	we know you have a job to do , brakenbury , and we ’ ll do what you say .
+0	it doesn ’ t make either of us happy , i know .
+0	well , your imprisonment won ’ t last long .
+0	in the meantime , be patient .
+0	go walk the path that you will never return from .
+0	but who ’ s coming ?
+0	good afternoon , my dear lord !
+0	the same to you , my lord !
+0	welcome to the open air again .
+0	how did you tolerate prison ?
+0	but his punishment was bitter death .
+0	who pleaded with me to pardon
+0	this is what happens when you act rashly .
+0	oh , they continually urged the king to do it .
+0	but come , lords , will you come with me to edward ’ s room to comfort him ?
+0	we ’ ll come with you , your grace .
+0	tell me , good grandmother , is our father dead ?
+0	my pretty children , both of you misunderstand me .
+0	so you ’ re admitting clarence , my father , is dead .
+0	my uncle the king is to blame for this .
+0	quiet , children , quiet .
+0	the king loves you very much .
+0	innocent sweethearts , you have no idea who ’ s responsible for your father ’ s death .
+0	you think my uncle was lying , grandmother ?
+0	i can ’ t believe that .
+0	what ’ s that noise ?
+0	i plan to fall into the blackest despair .
+0	why are the branches still living when the root is gone ?
+0	why aren ’ t the leaves withering now that the sap is all dried up ?
+0	if you do intend to live , then mourn .
+0	i could drown the world .
+0	my poor husband , my dear edward !
+0	our poor father , clarence !
+0	my sons edward and clarence !
+0	what support did i have other than edward ?
+0	and now he ’ s gone .
+0	what support did we have besides our father ?
+0	and now he ’ s gone .
+0	and now they ’ re both gone .
+0	there has never been a widow who suffered such loss as me .
+0	there have never been orphans who ’ ve suffered what we have .
+0	there was never a mother who suffered so much loss .
+0	alas , i am the mother of all these others ' griefs .
+0	be a careful mother , madam , and think about your son , the young prince .
+0	your peace of mind depends on him .
+0	all of us have reason to mourn the dimming of our shining star the king .
+0	on my knee , i humbly ask your blessing .
+0	god bless you and make you obedient , loving , and kind .
+0	though we have lost a generous king , we are about to enjoy the benefits of a new king .
+0	we must preserve our goodwill toward each other and not break into factions again .
+0	why only a few courtiers , my lord of buckingham ?
+0	the king made peace among all of us .
+0	and so do i. i think we all do .
+0	so , i agree with noble buckingham—only a few should go to meet the prince .
+0	you are my other self , my oracle , my prophet , my dear brother !
+0	good morrow , neighbor , whither away so fast ?
+0	i ’ m telling you , i hardly know myself .
+0	did you hear the news that ’ s going around ?
+0	yes , that the king is dead .
+0	good day to you , sir .
+0	is it true that good king edward has died ?
+0	yes , sir , it ’ s all too true , god help us .
+0	then , gentlemen , we can count on trouble .
+0	no , no , with god ’ s help , his son will be king .
+0	it ’ s bad news when a country is ruled by a child .
+0	with patience , noble lord , as prisoners must .
+0	what ’ s the news abroad ?
+0	where is he , in his bed ?
+0	you go ahead , and i will follow you .
+0	come , come , we ’ re worrying about the worst-case scenario .
+0	i ’ m sure everything will be fine .
+0	when storms arrive early , you can expect the harvest will be damaged .
+0	it ’ s always like this in times of change .
+0	but leave it all to god .
+0	where are you all off to ?
+0	the court has sent for us .
+0	they ’ ll be here tomorrow or the next day .
+0	i ’ m dying to see the prince .
+0	i hope he ’ s grown a lot since i last saw him .
+0	yes , mother , but i wish i hadn ’ t .
+0	it ’ s good to grow .
+0	well , it certainly wasn ’ t true for richard !
+0	and no doubt he is , gracious madam .
+0	i hope he is , but mothers get to have their doubts .
+0	what would you have said , my young york ?
+0	it took me two years before i had a single tooth .
+0	grandmother , this would have been a biting joke .
+0	pretty york , who told you about his teeth ?
+0	why , she was dead before you were even born .
+0	well , if it wasn ’ t her , i don ’ t know .
+0	come , come , you are too clever for your own good .
+0	good lady , don ’ t be angry with the child .
+0	little pitchers have big ears .
+0	what ’ s the news ?
+0	my lord , it ’ s news i wish i didn ’ t have to report .
+0	how ’ s the prince ?
+0	he ’ s fine and healthy , madam .
+0	the powerful dukes gloucester and buckingham .
+0	what did they do wrong ?
+0	i ’ ve told you everything i know .
+0	i see the downfall of my family .
+0	welcome , destruction , blood , and massacre !
+0	the tiring journey seems to have made you gloomy .
+0	i want more uncles here to welcome me .
+0	those uncles that you wish were here were dangerous .
+0	your grace heard their saccharine words , but didn ’ t take note of their poisonous intentions .
+0	god protect you from them and from other false friends !
+0	god should keep me from false friends , but they weren ’ t false .
+0	my lord , the mayor of london is here to greet you .
+0	god bless your grace with health and happy days .
+0	and , just in time , here comes the sweaty lord .
+0	what , isn ’ t my mother coming ?
+0	god knows why , but your mother and your brother have taken sanctuary in westminster abbey .
+0	your sweet brother wanted to come meet you , but his mother wouldn ’ t let him .
+0	i wouldn ’ t commit so serious a crime for anything .
+0	in these less dainty times , you ’ re not breaking the laws of sanctuary to seize him .
+0	lord hastings , will you go with me ?
+0	i ’ m coming , my lord .
+0	go as fast as you can .
+0	say , uncle richard , if my brother comes , where will i stay till my coronation ?
+0	whatever seems best to you .
+0	of all places , i don ’ t like the
+0	he started it , my noble lord , and succeeding generations rebuilt it .
+0	is it on record that he built it , or is it just word of mouth ?
+0	on record , my gracious lord .
+0	what did you say , uncle ?
+0	the king won ’ t live , i hope .
+0	i ’ ll marry the earl of warwick ’ s youngest daughter , lady anne .
+0	so what if i killed her husband and her father ?
+0	but i ’ m running ahead of myself .
+0	clarence is still alive ; edward is not only alive , he ’ s king .
+0	only when they ’ re dead can i start to count my gains .
+0	what , my dear lord ?
+0	richard of york , how are you doing , my loving brother ?
+0	very well , my supreme lord—that ’ s what i have to call you now .
+0	how ’ s my nephew doing , noble lord of york ?
+0	thank you for asking , uncle .
+0	oh , my lord , you once said that lazy weeds grow fast .
+0	the prince has far outgrown me .
+0	he has , my lord .
+0	does that mean he ’ s lazy ?
+0	oh , my handsome nephew , i must not say that .
+0	in that case , he ’ s more obliged to you than i am .
+0	he may command me as my king , but you still have power over me as a relative .
+0	uncle , please give me your dagger .
+0	my dagger , little nephew ?
+0	are you begging , brother ?
+0	i ’ ll give you a greater gift than that , nephew .
+0	that must mean a sword .
+0	yes , gentle cousin , if it were light enough for you .
+0	oh , i see , you will only part with lightweight presents .
+0	for more important things , you ’ ll say no .
+0	a sword ’ s too heavy for you to wear .
+0	i wouldn ’ t think much of it even if it were heavier .
+0	but , uncle , you know how to bear with him .
+0	you mean , to bear me , not to bear my protector , richard , insists on it .
+0	i can ’ t sleep quietly in the tower .
+0	why , what are you afraid of ?
+0	my uncle clarence ’ s angry ghost .
+0	my grandmother told me he was murdered there .
+0	i ’ m not afraid of dead uncles .
+0	nor living ones , i hope .
+0	well , i hope not .
+0	no doubt , no doubt .
+0	oh , he ’ s a dangerously clever boy—bold , quick-witted , capable .
+0	he ’ s his mother ’ s child from head to toe .
+0	well , enough about them.—come here , catesby .
+0	won ’ t he join us ?
+0	he ’ ll do whatever hastings does .
+0	if he seems game to our plan , encourage him to join us and explain all our reasons .
+0	but if he ’ s resistant and chilly , then be like that too and break off the conversation .
+0	give my regards to hastings , catesby .
+0	my good lords , i plan to .
+0	will we hear from you before bedtime , catesby ?
+0	you will , my lord .
+0	you ’ ll find us both at crosby place .
+0	whatever we decide to do .
+0	i look forward to that present .
+0	you ’ ll find i ’ ll give it to you very willingly .
+0	come , let ’ s have an early dinner so that we have time to work out our plans .
+0	a messenger from lord stanley .
+0	four o'clock in the morning .
+0	can ’ t lord stanley sleep ?
+0	i guess not—for good reason , as you ’ ll soon hear .
+0	first , he sends his regards .
+0	tell your master there is no sound basis for his worries .
+0	good morning , my noble lord .
+0	you ’ re up early .
+0	what news can you tell me in this fast-moving , unsteady state of ours ?
+0	i believe it won ’ t stop moving and stand upright till richard wears the wreath of the realm .
+0	what do you mean , “ wears the wreath ” ?
+0	are you talking about the crown ?
+0	yes , my good lord .
+0	i ’ ll have my head cut from my shoulders before i ’ ll see the crown so misplaced .
+0	but do you think that ’ s what he ’ s aiming for ?
+0	well , i ’ m not sorry to hear that , because they have always been my enemies .
+0	well , let ’ s hope you stay in that noble frame of mind .
+0	but as for now—before two weeks have gone by , i ’ m going to send some people packing .
+0	yes , monstrous , monstrous !
+0	i know they do , and i certainly deserve it .
+0	you ’ re afraid of the boar but you go around without your spear ?
+0	my lord , good morning .
+0	i hope to god i ’ m proven wrong !
+0	well , should we head to the tower ?
+0	the day is well on its way .
+0	set down your honorable load , men , if there is ever any honor in being dead .
+0	you know what , my lord ?
+0	those men you just mentioned will be beheaded today .
+0	they deserved to keep their heads more than some people who have managed to keep their positions .
+0	but come , my lord , let ’ s go .
+0	i ’ ll talk with this good man .
+0	what ’ s up , man ?
+0	how ’ s it going ?
+0	better , since your lordship was nice enough to ask .
+0	well , let ’ s hope your good fortune continues !
+0	here , drink to me .
+0	god be good to you !
+0	a nice coincidence , my lord .
+0	i ’ m glad to see you .
+0	i thank you , sir john , with all my heart .
+0	i am indebted to you for your last sermon .
+0	by next week , i ’ ll be able to pay you .
+0	your friends at pomfret , they ’ re the ones who need a priest .
+0	when i ran into this holy man , those men you mentioned did come to mind , in fact .
+0	are you headed to the tower ?
+0	i ’ ll be off before you are .
+0	yes , probably , because i ’ m staying for lunch .
+0	i ’ ll follow you , my lord .
+0	oh , pomfret , pomfret !
+0	oh , you bloody prison , fatal and threatening to noble lords !
+0	oh god , remember to hear her prayer for them , just as for us !
+0	the hour of death is approaching .
+0	in god ’ s name , speak .
+0	when should the royal day be ?
+0	is everything ready for that event ?
+0	tomorrow ’ s a good day .
+0	who knows what the lord protector thinks ?
+0	who ’ s closest to him ?
+0	you , i think , would best know what he ’ s thinking .
+0	lord hastings , you and he are close .
+0	right on cue , here ’ s the duke himself .
+0	my noble lords and relatives , good morning .
+0	no one may be bolder than my lord hastings .
+0	buckingham , i need to have a word with you .
+0	i ’ ll come soon .
+0	we have not yet set the coronation day .
+0	where is my lord , the duke of gloucester ?
+0	i have sent for the strawberries .
+0	richard is looking cheerful today .
+0	i pray to god he isn ’ t .
+0	then see the evidence of their evil with your own eyes .
+0	if they have done this thing , my noble lord— if ?
+0	you lover of that damned whore , you ’ re talking to me of “ ifs ” ?
+0	you ’ re a traitor.—off with his head .
+0	i pity england , but not myself .
+0	stanley dreamed the boar beheaded him , and i laughed and refused to flee with him .
+0	oh , now i really need that priest who spoke to me today !
+0	oh margaret , margaret , your heavy curse has now landed on poor hastings ’ s miserable head !
+0	he ’ s eager to see your head .
+0	come , come , hurry up .
+0	it ’ s pointless to talk now .
+0	those who smile at it will soon be dead themselves .
+0	frightening looks are also at my service , as are fake smiles .
+0	what wicked magician has conjured up this devil to interrupt this sacred burial rite ?
+0	lord mayor , the reason we have sent— look behind you !
+0	god defend and guard us innocents against them !
+0	they ’ re friends—ratcliffe and lovell .
+0	here ’ s the head of that notorious traitor , the dangerous and unsuspected hastings .
+0	i loved this man so much it makes me weep .
+0	what , do you think we ’ re turks or savages , instead of christians ?
+0	i didn ’ t expect any better from him once he got involved with mistress shore .
+0	that is exactly why we wanted you here , your lordship—to avoid the public carping and complaints .
+0	there was no limit to what his lustful eye and savage heart would prey on .
+0	but only hint at this vaguely , because , as you know , my mother ’ s still alive .
+0	if things go well , bring the crowd to i ’ m off .
+0	around three or four o'clock , look for news from the meeting hall .
+0	lovell , go as fast as you can to doctor shaw .
+0	what a backward world we live in !
+0	why , who ’ s so stupid that he can ’ t see through this fraud ?
+0	the world is a bad place , where you can ’ t speak what you know .
+0	it ’ s incredible—they didn ’ t say a word .
+0	did you mention that edward ’ s children are bastards ?
+0	they wouldn ’ t say anything ?
+0	aren ’ t the mayor and his fellow citizens coming ?
+0	the mayor is here at hand .
+0	and make sure to carry a prayer book in your hand and to stand between two priests , okay ?
+0	but don ’ t be easily won over .
+0	i ’ m going now .
+0	hurry , go up to the roof .
+0	the lord mayor is knocking .
+0	i don ’ t think he wants to be disturbed .
+0	now , catesby , what does your lord say to my request ?
+0	my lord , he asks that you please visit him tomorrow or the next day .
+0	return to the gracious duke , good catesby .
+0	i ’ ll tell him right away , my lord .
+0	ah , my lord , this prince is nothing like edward !
+0	england would be lucky to have this virtuous prince as king .
+0	but i ’ m afraid we ’ ll never get him to agree to be king .
+0	but god forbid he says no to us !
+0	i ’ m afraid he will .
+0	what ’ s up , catesby , what does your master say ?
+0	my lord , he ’ s afraid you mean him harm .
+0	i ’ m sorry my noble brother is suspicious of me .
+0	see how he stands between two clergymen !
+0	my lord , you don ’ t need to apologize .
+0	i beg you to pardon me .
+0	you have , my lord .
+0	sweet saint , for goodness ’ s sake , don ’ t be so angry .
+0	if you enjoy looking at your awful deeds , take a look at this noteworthy example of your butcheries .
+0	it ’ s your presence that draws out this blood from his empty veins .
+0	oh earth , which soaks up this blood , revenge his death !
+0	god forbid that i snatch the crown from him .
+0	don ’ t refuse the love we offer you .
+0	oh , make them joyful !
+0	alas , why would you heap all these responsibilities on me ?
+0	i am unfit to rule and to be king .
+0	oh , please don ’ t swear , my lord of buckingham .
+0	if you refuse it , the whole country will regret it .
+0	would you tie me to a whole world of worries ?
+0	well , call them back again .
+0	if you say that , you ’ ll only be telling the truth .
+0	then i salute you with this royal title : long live richard , england ’ s worthy king !
+0	will you be crowned tomorrow ?
+0	whenever you want , since you ’ re the one who wants it .
+0	my granddaughter , with her kind aunt , the duchess of gloucester , leading her by the hand ?
+0	we can all go together .
+0	and here comes the warden , just in time .
+0	they ’ re just fine , my dear madam .
+0	but i ’ m sorry—i ’ m not allowed to let you visit them .
+0	the king has strictly forbidden it .
+0	i meant to say the lord protector .
+0	the lord keep him from the title of king !
+0	richard has set boundaries between my love and theirs ?
+0	who ’ s going to keep me from them ?
+0	i am their father ’ s mother .
+0	i am their aunt , and i love them like a mother .
+0	so take me to see them .
+0	officer , i ’ ll take the responsibility from you , and the blame too .
+0	no , madam , no .
+0	i can ’ t do this .
+0	i am bound by oath , so please forgive me .
+0	your mother ’ s name has become a threat to her own children .
+0	but don ’ t delay .
+0	o , this evil wind that spreads nothing but misery .
+0	it has hatched a i go unwillingly .
+0	if you want to make me happy , don ’ t wish yourself harm .
+0	every night i ’ m awakened by his poor dear , goodbye .
+0	no more than i do yours .
+0	you are a rude , ragged nurse and an old , sullen playmate for such tender princes .
+0	please treat my babies well .
+0	dear woman , you don ’ t know the rules of charity .
+0	villain , you don ’ t know the laws of god or of man .
+0	even the fiercest wild animal has some touch of pity .
+0	if i know nothing about pity , that must mean i ’ m not an animal .
+0	it ’ s even stranger when an angel is so angry .
+0	you who are beautiful beyond words , calm down and let me explain myself .
+0	such an expression of despair would only prove that i was guilty .
+0	because of your advice and your help , i have a high position now .
+0	but will i wear these honors for only a day or will i enjoy them for a long time ?
+0	young prince edward is still alive—what do you think i ’ m going to say next ?
+0	go on , my loving lord .
+0	but edward is still alive .
+0	oh , how bitter it is that edward—the real “ true , noble prince ” —should still be alive !
+0	cousin , you didn ’ t used to be so thickheaded .
+0	shall i put it plainly ?
+0	your grace can do whatever he wants .
+0	tut , tut , you ’ ve become rather icy .
+0	tell me , do i have your consent to kill them ?
+0	give me a little breathing space , my lord , a little pause to think .
+0	i ’ ll let you know my answer shortly .
+0	do you know anyone who would kill someone for money ?
+0	what ’ s his name ?
+0	his name is tyrrel , my lord .
+0	i know the man a bit .
+0	go , bring him here , boy .
+0	look who ’ s here !
+0	what ’ s the news with you ?
+0	spread the rumor abroad that anne , my wife , is very sick .
+0	and find a poverty stricken gentleman who i can marry straightaway to clarence ’ s daughter .
+0	look at you , standing there in a stupor !
+0	i repeat , spread the rumor that anne , my wife , is sick and likely to die .
+0	james tyrrel—and your most obedient subject .
+0	do you dare kill a friend of mine ?
+0	well , that ’ s what you get to do .
+0	two great enemies , in fact , enemies to my peace of mind .
+0	tyrrel , i mean those bastards in the tower .
+0	give me access to them , and soon you won ’ t have to worry about them anymore .
+0	that ’ s music to my ears .
+0	by this token , you ’ ll be admitted to their cell .
+0	get up and listen to me .
+0	that ’ s all there is to it .
+0	as soon as the deed is done , you will be in my favor and i will promote you .
+0	i ’ ll do it right away .
+0	my lord , i have thought over the request you just made of me .
+0	well , it doesn ’ t matter anymore .
+0	dorset has fled to the earl of richmond .
+0	i heard the news , my lord .
+0	stanley , richmond is your wife ’ s son .
+0	stanley , pay attention to your wife ’ s doings .
+0	if she sends any letters to richmond , you will be accountable to me for it .
+0	what do you say , your highness , about my just request ?
+0	my lord , your promise of the earldom— richmond !
+0	yes , what time is it ?
+0	i ’ m reminding your grace what you promised me .
+0	well , but what time is it ?
+0	it ’ s almost ten o'clock .
+0	well , let it strike ten then .
+0	why “ let it strike ” ?
+0	because you ’ re like the lowborn fellow who strikes the bell—you keep interrupting my thoughts .
+0	i am not in the giving mood today .
+0	you ’ re bothering me .
+0	i ’ m not in the mood .
+0	does he reward my dedicated service with such deep contempt ?
+0	did i work to make him king for this ?
+0	oh , let me remember what happened to hastings and hurry to
+0	it was the most ruthless massacre this country has ever been guilty of .
+0	their lips , like four red roses on a stalk , touched .
+0	kind tyrrel , will your news make me happy ?
+0	but did you see them dead ?
+0	i did , my lord .
+0	and buried , noble tyrrel ?
+0	tyrrel , come back shortly after dinner and tell me the details of their deaths .
+0	in the meantime , think about how i can do you good and give you what you want .
+0	is the news good or bad that you enter without knocking ?
+0	bad news , my lord .
+0	ely joining richmond troubles me more than buckingham and his quickly assembled army .
+0	let ’ s say i didn ’ t kill them .
+0	then you might as well say they ’ re not dead .
+0	but they are dead , and you killed them , you slave of the devil .
+0	i did not kill your husband .
+0	well , then he must be alive .
+0	queen margaret saw your sword steaming with his blood .
+0	she provoked me with her lying mouth , accusing me of crimes i didn ’ t commit .
+0	no , what provoked you was your own bloody mind , which never thinks about anything but butchering .
+0	you killed this king , didn ’ t you ?
+0	yes , i ’ ll grant you that .
+0	you ’ ll grant me , you hedgehog ?
+0	then let god grant me that you ’ ll be damned for that wicked deed .
+0	oh , he was gentle , mild , and virtuous .
+0	that will please god , who has him now .
+0	he is in heaven , where you will never go .
+0	let him thank me , who helped him get there .
+0	i ’ ve lurked in the shadows here to watch the downfall of my enemies .
+0	i ’ ll head to france soon .
+0	it ’ s time to hide , wretched margaret .
+0	ah , my poor princes !
+0	hover about her and tell her she got what she deserved , with her children dead before their time .
+0	i ’ ve been crazed with so many miseries that my tongue has tired of lamenting and gone mute .
+0	edward plantagenet , why are you dead ?
+0	will you abandon such gentle lambs , god , and throw them to the wolves ?
+0	have you ever slept before while such a terrible deed was done ?
+0	let my sorrow have the upper hand .
+0	you had a clarence , too , and richard killed him .
+0	o harry ’ s wife , do not triumph in my sorrow !
+0	with god as my witness , i swear i have wept for yours .
+0	your son edward , who stabbed my son edward , is dead .
+0	your clarence , who stabbed my edward , is also dead .
+0	and i was right , because where ’ s your husband now ?
+0	you once stole my position ; now you get to have the grief that goes with it .
+0	your english sorrows will make me smile in france .
+0	you who are so skilled in cursing , stay awhile and teach me how to curse my enemies .
+0	making your loss greater makes the person who caused it worse .
+0	think like this all day , and you ’ ll learn how to curse .
+0	your misery will make them sharp and piercing like mine .
+0	but give words a chance .
+0	if that ’ s true , then don ’ t be tongue-tied .
+0	come with me , and let ’ s smother my fiendish son—who smothered your two sweet sons—in bitter words .
+0	who ’ s blocking the way ?
+0	tell me , you villainous lowlife , where are my children ?
+0	where are the noble hastings , rivers , vaughan , grey ?
+0	don ’ t let the heavens hear these chattery women abuse the lord ’ s anointed king .
+0	either be calm and polite or i ’ ll drown you out with the music of war .
+0	yes , i thank god , my father , and yourself .
+0	then patiently listen to my impatience .
+0	oh , let me speak !
+0	go ahead , but i won ’ t listen .
+0	i ’ ll be gentle and mild .
+0	and brief , good mother—i ’ m in a hurry .
+0	god knows i waited for you in anguish , pain , and agony when i gave birth to you .
+0	and didn ’ t i finally arrive to comfort you ?
+0	so , what hour of comfort have i ever had in your company ?
+0	you ’ re too bitter .
+0	i ’ ll never speak to you again .
+0	though i have far more reason , i don ’ t have as much energy to curse you .
+0	but i say amen to everything she said .
+0	i need to speak a word with you .
+0	i have no more royal sons for you to murder .
+0	you have a daughter named elizabeth , who is virtuous and beautiful , aristocratic and full of grace .
+0	and does she have to die for this ?
+0	oh , let her live , and i ’ ll ruin her manners and her beauty .
+0	don ’ t wrong her birth .
+0	to save her life , i ’ ll say she doesn ’ t .
+0	yes , as safe as her brothers ' lives were .
+0	my children would have enjoyed a better death if god had blessed you with a purer life .
+0	whichever hand literally stabbed their tender hearts , you ’ re the one who gave the order .
+0	what good does heaven have in store that can do me any good now ?
+0	the advancement of your children , noble lady .
+0	advancement to some scaffold , to lose their heads .
+0	no , advancement to the dignity and height of honor , to a high , imperial kind of glory .
+0	and you ’ re not suited for any place except hell .
+0	yes , and one other place , if you ’ ll only let me name it .
+0	there is no rest to be had in any bedroom where you are !
+0	exactly , madam , until i sleep with you .
+0	then know that from my soul i love your daughter .
+0	that you love my daughter to spite your soul .
+0	don ’ t be so quick to twist my meaning .
+0	the one who makes her queen , of course .
+0	who else should it be ?
+0	what do you think , madam ?
+0	how would you woo her ?
+0	and madam , with all my heart .
+0	come , come , you ’ re making fun of me .
+0	this is not the way to win your daughter .
+0	there isn ’ t any other way , unless you took on another form and became someone else .
+0	but suppose i did all the things you named out of love for her .
+0	then she has no choice but to hate you , as you purchased her love with murder .
+0	whatever has already been done can ’ t be undone now .
+0	men act imprudently sometimes , then realize their mistakes when they have time to think about them .
+0	if i have killed your children , i will have children with your daughter .
+0	a grandmother is loved hardly less than a mother is .
+0	your children caused you trouble in your youth , but mine will bring you comfort in your old age .
+0	indeed , we have many good days to look forward to !
+0	go , then , mother , to your daughter .
+0	what should i say to her ?
+0	that her father ’ s brother wants to be her husband ?
+0	or should i say it ’ s her uncle ?
+0	or should i describe you as the one who killed her brothers and her uncles ?
+0	claim fair england ’ s peace depends on this alliance .
+0	she will purchase that peace with an everlasting war .
+0	tell her that the king , who has the power to command people , asks her .
+0	he asks her to do what god say she will be a high and mighty queen .
+0	only to watch that title become worthless , as her mother has .
+0	say i will love her everlastingly .
+0	but how long will “ ever ” last ?
+0	until her beautiful life ’ s end .
+0	but how long will her beautiful life last ?
+0	as long as heaven and nature extend it .
+0	as long as hell and richard want it .
+0	tell her that i , her king , am her lowly subject .
+0	but she , your subject , hates such a king .
+0	be eloquent on my behalf .
+0	an honest tale succeeds best when it is told simply .
+0	then tell her my loving story in simple terms .
+0	you can ’ t tell a story simply when it ’ s a lie .
+0	your answers are too shallow and too hasty .
+0	oh no , my reasons are deep and as permanent as death .
+0	don ’ t harp on that point , madam—it ’ s past .
+0	i will harp on it till my heartstrings break .
+0	i swear— by nothing , because this is no oath .
+0	st. george loses his holiness once then , by myself— you ’ ve misused yourself .
+0	now , by the world— it ’ s full of your ugly wrongdoings .
+0	by my father ’ s death— your life has dishonored his death .
+0	what can you swear by now ?
+0	don ’ t swear by the future , because you ’ ve ruined it before it has even arrived .
+0	may i only do well in these dangerous battles if my intention to repent and prosper is sincere !
+0	my happiness and yours lie in her .
+0	shall i be tempted by the devil ?
+0	yes , if the devil tempts you to do good .
+0	yes , if your memories do you no good .
+0	yet you killed my children .
+0	but in your daughter ’ s womb i will bury them .
+0	should i go convince my daughter to marry you ?
+0	and be a happy mother by doing so .
+0	write to me very soon and i ’ ll let you know what she thinks .
+0	word is that richmond is the navy ’ s admiral .
+0	someone who can ride fast , go to the duke of here , my good lord .
+0	catesby , fly to the duke .
+0	i will my lord , as fast as i can .
+0	oh , right , good catesby .
+0	what would you like me to do at salisbury ?
+0	why , what is there to do before i get there ?
+0	your highness just told me that i should ride there before you .
+0	stanley , what news do you have ?
+0	well , how nice , a riddle !
+0	why do you go around in circles when you could get to the point ?
+0	once again , what ’ s the news ?
+0	richmond is sailing on the sea .
+0	let him sink there so the sea will cover him !
+0	lily-livered coward , what ’ s he doing there ?
+0	well , what do you guess ?
+0	they are my daylight , my life .
+0	then i hope night shadows your day , and death takes your life !
+0	don ’ t damn yourself .
+0	i wish i were , so i could deprive you of both day and life .
+0	there is no better one on earth .
+0	is the army without a leader ?
+0	is the king dead , the empire dispossessed ?
+0	what heir of the york family is there alive other than myself ?
+0	and who is england ’ s king but an heir of the great york ?
+0	therefore , tell me , what is he doing at sea ?
+0	where is your army , then , to beat him back ?
+0	where are your tenants and your followers ?
+0	then they ’ re cold friends to me .
+0	what are they doing in the north when they should be in the west serving their king ?
+0	they haven ’ t been commanded to go to the west , mighty king .
+0	most mighty sovereign , you have no reason to doubt my friendship .
+0	i was never disloyal , and i never will be .
+0	then go gather your men , but leave behind your son , george stanley .
+0	buckingham himself has wandered away alone to who knows where .
+0	even if we don ’ t fight foreign enemies , we ’ ll beat down these rebels at home .
+0	while we ’ re talking here , a royal battle could be won and lost .
+0	someone deliver the order that buckingham be brought to salisbury .
+0	everyone else , march on with me .
+0	but , tell me , where is the noble richmond now ?
+0	at pembroke , or at harfordwest in wales .
+0	now we wear the wreaths of victory on our heads .
+0	won ’ t king richard let me speak with him ?
+0	no , my good lord .
+0	this is it is , my lord .
+0	why , then , it ’ s my body ’ s doomsday .
+0	this , this all-souls ' day , is my just desserts .
+0	this is how god forces wicked men to turn their swords against themselves .
+0	i have done wrong , so i will suffer wrong .
+0	i suspect his friends will join us .
+0	he has no friends except those who are too afraid to defy him .
+0	in his greatest need , even they will desert him .
+0	so , in god ’ s name , let ’ s march .
+0	hope with good cause is swift ; it flies as fast as a swallow .
+0	it turns kings into gods and men of lower rank into kings .
+0	my heart is ten times lighter than my looks .
+0	my lord of norfolk— here , most gracious king .
+0	norfolk , we ’ re going to have a few blows , right ?
+0	we ’ ve got to give them and take them , my lord .
+0	i ’ ll lie here tonight .
+0	but where will i lie tomorrow ?
+0	well , it doesn ’ t matter .
+0	six or seven thousand , at most .
+0	why , our troops amount to three times that .
+0	let ’ s be disciplined and not delay , because tomorrow is a busy day .
+0	upon my life , my lord , i ’ ll do it .
+0	there is a man who loves you better than your husband could .
+0	yes , that ’ s my husband ’ s name .
+0	someone else has the same name , but he ’ s a better man .
+0	why do you spit at me ?
+0	if only i could spit poison .
+0	poison never came from such a sweet place .
+0	poison never landed on such an ugly toad .
+0	get out of my sight !
+0	you ’ re poisoning my eyes .
+0	your beautiful eyes , sweet lady , have infected mine with love .
+0	good night , dear captain blunt .
+0	come , gentlemen , let ’ s discuss tomorrow ’ s action in my tent .
+0	the night air is too raw and cold for us to stay outdoors .
+0	it ’ s dinnertime , my lord .
+0	it ’ s nine o'clock .
+0	i ’ m not going to eat dinner tonight .
+0	give me some ink and paper .
+0	is the visor of my helmet working better now ?
+0	and has my armor been put in my tent ?
+0	my good man norfolk , hurry to your post .
+0	i ’ m off , my lord .
+0	get up early tomorrow—at the sound of the lark—noble norfolk .
+0	i will , my lord .
+0	did you see the gloomy lord northumberland ?
+0	good , i ’ m satisfied .
+0	is my ink and paper ready ?
+1	faith , none but humfrey hower , that called your grace to breakfast once , forth of my company .
+1	i prithee , hear me speak .
+1	hear me a word , for i shall never speak to thee again .
+1	though far more cause , yet much less spirit to curse abides in me .
+1	i say amen to her .
+1	i must talk a word with you .
+1	i have no more sons of the royal blood for thee to slaughter .
+1	you have a daughter called elizabeth , virtuous and fair , royal and gracious .
+1	and must she die for this ?
+1	so she may live unscarred of bleeding slaughter , i will confess she was not edward ’ s daughter .
+1	she is a royal princess .
+1	to save her life , i ’ ll say she is not so .
+1	and only in that safety died her brothers .
+1	no , to their lives ill friends were contrary .
+1	my babes were destined to a fairer death if grace had blessed thee with a fairer life .
+1	whose hand soever launched their tender hearts , thy head , all indirectly , gave direction .
+1	what good is covered with the face of heaven , to be discovered , that can do me good ?
+1	the advancement of your children , gentle lady .
+1	up to some scaffold , there to lose their heads .
+1	unto the dignity and height of fortune , the high imperial type of this earth ’ s glory .
+1	and thou unfit for any place but hell .
+1	yes , one place else , if you will hear me name it .
+1	ill rest betide the chamber where thou liest !
+1	so will it , madam till i lie with you .
+1	be brief , lest that the process of thy kindness last longer telling than thy kindness ' date .
+1	then know that from my soul i love thy daughter .
+1	my daughter ’ s mother thinks it with her soul .
+1	that thou dost love my daughter from thy soul .
+1	be not so hasty to confound my meaning .
+1	even he that makes her queen .
+1	how think you of it ?
+1	how canst thou woo her ?
+1	madam , with all my heart .
+1	you mock me , madam .
+1	this is not the way to win your daughter .
+1	say that i did all this for love of her .
+1	look what is done can not be now amended .
+1	men shall deal unadvisedly sometimes , which after-hours give leisure to repent .
+1	a grandam ’ s name is little less in love than is the doting title of a mother .
+1	your children were vexation to your youth , but mine shall be a comfort to your age .
+1	i can not make you what amends i would ; therefore accept such kindness as i can .
+1	what , we have many goodly days to see !
+1	go then , my mother ; to thy daughter go .
+1	what were i best to say ?
+1	her father ’ s brother would be her lord ?
+1	or shall i say her uncle ?
+1	or he that slew her brothers and her uncles ?
+1	infer fair england ’ s peace by this alliance .
+1	which she shall purchase with still-lasting war .
+1	say she shall be a high and mighty queen .
+1	to vail the title , as her mother doth .
+1	say i will love her everlastingly .
+1	but how long shall that title “ ever ” last ?
+1	sweetly in force unto her fair life ’ s end .
+1	but how long fairly shall her sweet life last ?
+1	as long as heaven and nature lengthens it .
+1	as long as hell and richard likes of it .
+1	say i , her sovereign , am her subject low .
+1	but she , your subject , loathes such sovereignty .
+1	be eloquent in my behalf to her .
+1	an honest tale speeds best being plainly told .
+1	then plainly to her tell my loving tale .
+1	plain and not honest is too harsh a style .
+1	your reasons are too shallow and too quick .
+1	harp not on that string , madam ; that is past .
+1	harp on it still shall i till heart-strings break .
+1	now by my george , my garter , and my crown— profaned , dishonored , and the third usurped .
+1	i swear— by nothing , for this is no oath .
+1	then , by myself— thyself is self-misused .
+1	now , by the world— 'tis full of thy foul wrongs .
+1	my father ’ s death— thy life hath it dishonored .
+1	what canst thou swear by now ?
+1	swear not by time to come , for that thou hast misused ere used , by times ill-used o'erpast .
+1	as i intend to prosper and repent , so thrive i in my dangerous affairs of hostile arms !
+1	in her consists my happiness and thine .
+1	urge the necessity and state of times , and be not peevish found in great designs .
+1	shall i be tempted of the devil thus ?
+1	ay , if the devil tempt you to do good .
+1	ay , if your self ’ s remembrance wrong yourself .
+1	yet thou didst kill my children .
+1	shall i go win my daughter to thy will ?
+1	and be a happy mother by the deed .
+1	write to me very shortly , and you shall understand from me her mind .
+1	to our shores throng many doubtful hollow-hearted friends , unarmed and unresolved to beat them back .
+1	some light-foot friend post to the duke of norfolk— ratcliffe , thyself , or catesby .
+1	catesby , fly to the duke .
+1	i will , my lord , with all convenient haste .
+1	o true , good catesby .
+1	bid him levy straight the greatest strength and power that he can make and meet me suddenly at salisbury .
+1	what , may it please you , shall i do at salisbury ?
+1	why , what wouldst thou do there before i go ?
+1	your highness told me i should post before .
+1	stanley , what news with you ?
+1	what need ’ st thou run so many mile about when thou mayst tell thy tale the nearest way ?
+1	once more , what news ?
+1	richmond is on the seas .
+1	there let him sink , and be the seas on him !
+1	white-livered runagate , what doth he there ?
+1	well , as you guess ?
+1	it is my day , my life .
+1	black night o'ershade thy day , and death thy life .
+1	curse not thyself , fair creature ; thou art both .
+1	i would i were , to be revenged on thee .
+1	his better doth not breathe upon the earth .
+1	is the king dead , the empire unpossessed ?
+1	what heir of york is there alive but we ?
+1	and who is england ’ s king but great york ’ s heir ?
+1	then tell me , what makes he upon the seas ?
+1	where is thy power , then , to beat him back ?
+1	where be thy tenants and thy followers ?
+1	are they not now upon the western shore , safe-conducting the rebels from their ships ?
+1	what do they in the north when they should serve their sovereign in the west ?
+1	they have not been commanded , mighty king .
+1	most mighty sovereign , you have no cause to hold my friendship doubtful .
+1	i never was nor never will be false .
+1	go then and muster men , but leave behind your son george stanley .
+1	my lord , the army of great buckingham— out on you , owls !
+1	nothing but songs of death .
+1	but this good comfort bring i to your highness : the breton navy is dispersed by tempest .
+1	while we reason here , a royal battle might be won and lost .
+1	someone take order buckingham be brought to salisbury .
+1	the rest march on with me .
+1	but , tell me , where is princely richmond now ?
+1	at pembroke , or at ha'rfordwest in wales .
+1	will not king richard let me speak with him ?
+1	no , my good lord .
+1	why , then all souls ' day is my body ’ s doomsday .
+1	this is the day wherein i wished to fall by the false faith of him who most i trusted .
+1	this , this all souls ' day to my fearful soul is the determined respite of my wrongs .
+1	thus doth he force the swords of wicked men to turn their own points in their masters ' bosoms .
+1	wrong hath but wrong , and blame the due of blame .
+1	i doubt not but his friends will turn to us .
+1	he hath no friends but who are friends for fear .
+1	which in his dearest need will fly from him .
+1	then , in god ’ s name , march .
+1	true hope is swift , and flies with swallow ’ s wings .
+1	kings it makes gods , and meaner creatures kings .
+1	my heart is ten times lighter than my looks .
+1	my lord of norfolk— here , most gracious liege .
+1	norfolk , we must have knocks , ha , must we not ?
+1	we must both give and take , my loving lord .
+1	up with my tent ! —here will i lie tonight .
+1	well , all ’ s one for that .
+1	six or seven thousand is their utmost power .
+1	why , our battalia trebles that account .
+1	besides , the king ’ s name is a tower of strength which they upon the adverse party want .
+1	upon my life , my lord , i ’ ll undertake it .
+1	he lives that loves thee better than he could .
+1	why , that was he .
+1	the selfsame name , but one of better nature .
+1	why dost thou spit at me ?
+1	would it were mortal poison for thy sake .
+1	never came poison from so sweet a place .
+1	never hung poison on a fouler toad .
+1	thou dost infect mine eyes .
+1	thine eyes , sweet lady , have infected mine .
+1	would they were basilisks to strike thee dead .
+1	good night , good captain blunt .
+1	come , gentlemen , let us consult upon tomorrow ’ s business into my tent .
+1	the dew is raw and cold .
+1	what is “ t o ” clock ?
+1	it ’ s suppertime , my lord .
+1	it ’ s nine o'clock .
+1	i will not sup tonight .
+1	give me some ink and paper .
+1	what , is my beaver easier than it was ?
+1	and all my armor laid into my tent ?
+1	good norfolk , hie thee to thy charge .
+1	i go , my lord .
+1	stir with the lark tomorrow , gentle norfolk .
+1	i warrant you , my lord .
+1	sawst thou the melancholy lord northumberland ?
+1	so , i am satisfied .
+1	is ink and paper ready ?
+1	it is , my lord .
+1	ratcliffe , about the mid of night come to my tent and help to arm me .
+1	leave me , i say .
+1	fortune and victory sit on thy helm !
+1	all comfort that the dark night can afford be to thy person , noble father-in-law .
+1	tell me , how fares our loving mother ?
+1	i , by attorney , bless thee from thy mother , who prays continually for richmond ’ s good .
+1	god give us leisure for these rites of love !
+1	be valiant , and speed well .
+1	once more , good night , kind lords and gentlemen .
+1	o thou , whose captain i account myself , look on my forces with a gracious eye .
+1	make us thy ministers of chastisement , that we may praise thee in the victory !
+1	to thee i do commend my watchful soul , ere i let fall the windows of mine eyes .
+1	sleeping and waking , o , defend me still !
+1	think upon vaughan , and with guilty fear let fall thy lance .
+1	edward ’ s unhappy sons do bid thee flourish .
+1	thy adversary ’ s wife doth pray for thee .
+1	the last was i that felt thy tyranny .
+1	o , in the battle think on buckingham , and die in terror of thy guiltiness .
+1	dream on , dream on , of bloody deeds and death .
+1	but cheer thy heart , and be thou not dismayed .
+1	have mercy , jesu ! —soft , i did but dream .
+1	o coward conscience , how dost thou afflict me !
+1	there ’ s none else by .
+1	richard loves richard ; that is , i and i .
+1	is there a murderer here ?
+1	alack , i love myself .
+1	for any good that i myself have done unto myself ?
+1	alas , i rather hate myself for hateful deeds committed by myself .
+1	fool , of thyself speak well .
+1	fool , do not flatter .
+1	zounds , who is there ?
+1	ratcliffe , my lord , ’ tis i .
+1	the early village cock hath twice done salutation to the morn .
+1	your friends are up and buckle on their armor .
+1	o ratcliffe , i have dreamed a fearful dream !
+1	what think ’ st thou , will our friends prove all true ?
+1	no doubt , my lord .
+1	tis not yet near day .
+1	cry mercy , lords and watchful gentlemen , that you have ta'en a tardy sluggard here .
+1	how have you slept , my lord ?
+1	methought their souls whose bodies richard murdered came to my tent and cried on victory .
+1	i promise you , my soul is very jocund in the remembrance of so fair a dream .
+1	how far into the morning is it , lords ?
+1	upon the stroke of four .
+1	why , then ’ tis time to arm and give direction .
+1	god and our good cause fight upon our side .
+1	the prayers of holy saints and wrongèd souls , like high-reared bulwarks , stand before our faces .
+1	richard except , those whom we fight against had rather have us win than him they follow .
+1	for what is he they follow ?
+1	if you do sweat to put a tyrant down , you sleep in peace , the tyrant being slain .
+1	if you do fight in safeguard of your wives , your wives shall welcome home the conquerors .
+1	then , in the name of god and all these rights , advance your standards .
+1	i never sued to friend , nor enemy ; my tongue could never learn sweet smoothing word .
+1	what said northumberland as touching richmond ?
+1	that he was never trainèd up in arms .
+1	and what said surrey then ?
+1	not i , my lord .
+1	the sun will not be seen today .
+1	the sky doth frown and lour upon our army .
+1	i would these dewy tears were from the ground .
+1	arm , arm , my lord .
+1	the foe vaunts in the field .
+1	come , bustle , bustle .
+1	john duke of norfolk , thomas earl of surrey , shall have the leading of this foot and horse .
+1	this , and saint george to boot—what think ’ st thou , norfolk ?
+1	a good direction , warlike sovereign .
+1	this found i on my tent this morning .
+1	amaze the welkin with your broken staves—
+1	will he bring his power ?
+1	my lord , he doth deny to come .
+1	off with his son george ’ s head !
+1	my lord , the enemy is past the marsh .
+1	after the battle let george stanley die .
+1	victory sits on our helms .
+1	rescue , my lord of norfolk , rescue , rescue !
+1	the king enacts more wonders than a man , daring an opposite to every danger .
+1	rescue , fair lord , or else the day is lost !
+1	a horse , a horse , my kingdom for a horse !
+1	i ’ ll help you to a horse .
+1	god and your arms be praised , victorious friends !
+1	great god of heaven , say amen to all !
+1	but tell me , is young george stanley living ?
+1	john duke of norfolk , walter , lord ferrers , sir robert brakenbury , and sir william brandon .
+1	and then , as we have ta'en the sacrament , we will unite the white rose and the red .
+1	smile heaven upon this fair conjunction , that long have frowned upon their enmity .
+1	what traitor hears me and says not “ amen ? ” england hath long been mad and scarred herself .
+1	now civil wounds are stopped , peace lives again .
+1	that she may long live here , god say amen .
+1	take up the sword again , or take up me .
+1	though i wish thy death , i will not be the executioner .
+1	that was in thy rage .
+1	to both their deaths shalt thou be accessory .
+1	i would i knew thy heart .
+1	tis figured in my tongue .
+1	i fear me both are false .
+1	then never man was man true .
+1	well , well , put up your sword .
+1	say then my peace is made .
+1	that shall you know hereafter .
+1	but shall i live in hope ?
+1	all men i hope live so .
+1	vouchsafe to wear this ring .
+1	wear both of them , for both of them are thine .
+1	for divers unknown reasons , i beseech you , grant me this boon .
+1	sirs , take up the corse .
+1	towards chertsey , noble lord ?
+1	was ever woman in this humor wooed ?
+1	was ever woman in this humor won ?
+1	i ’ ll have her , but i will not keep her long .
+1	and yet to win her , all the world to nothing !
+1	on me , whose all not equals edward ’ s moiety ?
+1	on me , that halts and am misshapen thus ?
+1	my dukedom to a beggarly denier , i do mistake my person all this while !
+1	upon my life , she finds , although i can not , myself to be a marv'lous proper man .
+1	since i am crept in favor with myself , i will maintain it with some little cost .
+1	but first i ’ ll turn yon fellow in his grave and then return lamenting to my love .
+1	there ’ s no doubt his majesty will soon recover his accustomed health .
+1	if he were dead , what would betide on me ?
+1	is it concluded that he shall be protector ?
+1	it is determined , not concluded yet ; but so it must be if the king miscarry .
+1	god make your majesty joyful , as you have been .
+1	saw you the king today , my lord of derby ?
+1	but now the duke of buckingham and i are come from visiting his majesty .
+1	what likelihood of his amendment , lords ?
+1	did you confer with him ?
+1	would all were well—but that will never be .
+1	they do me wrong , and i will not endure it !
+1	who is it that complains unto the king that i , forsooth , am stern and love them not ?
+1	to whom in all this presence speaks your grace ?
+1	to thee , that hast nor honesty nor grace .
+1	when have i injured thee ?
+1	or any of your faction ?
+1	a plague upon you all !
+1	brother of gloucester , you mistake the matter .
+1	the world is grown so bad that wrens make prey where eagles dare not perch .
+1	come , come , we know your meaning , brother gloucester .
+1	you envy my advancement , and my friends ' .
+1	god grant we never may have need of you .
+1	meantime god grants that we have need of you .
+1	because my name is george .
+1	alack , my lord , that fault is none of yours .
+1	he should , for that , commit your godfathers .
+1	o , belike his majesty hath some intent that you shall be new christened in the tower .
+1	but what ’ s the matter , clarence ?
+1	i wis , your grandam had a worser match .
+1	my lord of gloucester , i have too long borne your blunt upbraidings and your bitter scoffs .
+1	by heaven , i will acquaint his majesty with those gross taunts that oft i have endured .
+1	small joy have i in being england ’ s queen .
+1	so should we you , if you should be our king .
+1	i had rather be a peddler .
+1	hear me , you wrangling pirates , that fall out in sharing that which you have pilled from me !
+1	which of you trembles not that looks on me ?
+1	foul , wrinkled witch , what mak ’ st thou in my sight ?
+1	but repetition of what thou hast marred .
+1	that will i make before i let thee go .
+1	wert thou not banishèd on pain of death ?
+1	the sorrow that i have by right is yours , and all the pleasures you usurp are mine .
+1	tyrants themselves wept when it was reported .
+1	thyself a queen , for me that was a queen , outlive thy glory , like my wretched self .
+1	have done thy charm , thou hateful , withered hag .
+1	stay , dog , for thou shalt hear me .
+1	the worm of conscience still begnaw thy soul .
+1	why , so i did , but looked for no reply .
+1	o , let me make the period to my curse !
+1	tis done by me , and ends in “ margaret. ” thus have you breathed your curse against yourself .
+1	the day will come that thou shalt wish for me to help thee curse that poisonous bunch-backed toad .
+1	false-boding woman , end thy frantic curse , lest to thy harm thou move our patience .
+1	foul shame upon you , you have all moved mine .
+1	were you well served , you would be taught your duty .
+1	o , serve me well , and teach yourselves that duty !
+1	learn it , learn it , marquess .
+1	it touches you , my lord , as much as me .
+1	and turns the sun to shade .
+1	urge neither charity nor shame to me .
+1	uncharitably with me have you dealt , and shamefully my hopes by you are butchered .
+1	my charity is outrage , life my shame , and in that shame still live my sorrows ' rage .
+1	have done , have done .
+1	thy garments are not spotted with our blood , nor thou within the compass of my curse .
+1	nor no one here , for curses never pass the lips of those that breathe them in the air .
+1	what doth she say , my lord of buckingham ?
+1	nothing that i respect , my gracious lord .
+1	my hair doth stand an end to hear her curses .
+1	i muse why she ’ s at liberty .
+1	i can not blame her .
+1	i never did her any , to my knowledge .
+1	yet you have all the vantage of her wrong .
+1	god pardon them that are the cause thereof .
+1	so do i ever for had i cursed now , i had cursed myself .
+1	yea , richard , when i know , for i protest as yet i do not .
+1	and for my name of george begins with it follows in his thought that i am he .
+1	why , this it is when men are ruled by women .
+1	tis not the king that sends you to the tower .
+1	my lady grey his wife , clarence , ’ tis she that tempers him to this extremity .
+1	we wait upon your grace .
+1	i do the wrong , and first begin to brawl .
+1	are you now going to dispatch this thing ?
+1	i have it here about me .
+1	tut , tut , my lord , we will not stand to prate .
+1	talkers are no good doers .
+1	be assured we go to use our hands and not our tongues .
+1	your eyes drop millstones , when fools ' eyes drop tears .
+1	go , go , dispatch .
+1	we will , my noble lord .
+1	why looks your grace so heavily today ?
+1	what was your dream , my lord ?
+1	i pray you tell me .
+1	had you such leisure in the time of death to gaze upon the secrets of the deep ?
+1	no marvel , lord , though it affrighted you .
+1	i am afraid , methinks , to hear you tell it .
+1	my soul is heavy , and i fain would sleep .
+1	i will , my lord .
+1	god give your grace good rest .
+1	sorrow breaks seasons and reposing hours , makes the night morning , and the noontide night .
+1	princes have but their titles for their glories , an outward honor for an inward toil ,
+1	what wouldst thou , fellow ?
+1	and how cam ’ st thou hither ?
+1	i would speak with clarence , and i came hither on my legs .
+1	tis better , sir , to be brief than tedious.—let him see our commission , and talk no more .
+1	i am in this commanded to deliver the noble duke of clarence to your hands .
+1	there lies the duke asleep , and there the keys .
+1	tis a point of wisdom .
+1	what , shall i stab him as he sleeps ?
+1	he ’ ll say ’ twas done cowardly , when he wakes .
+1	why , he shall never wake until the great judgment day .
+1	why , then he ’ ll say we stabbed him sleeping .
+1	the urging of that word “ judgment ” hath bred a kind of remorse in me .
+1	what , art thou afraid ?
+1	i thought thou hadst been resolute .
+1	so i am—to let him live .
+1	i ’ ll back to the duke of gloucester and tell him so .
+1	nay , i prithee stay a little .
+1	i hope this passionate humor of mine will change .
+1	it was wont to hold me but while one tells twenty .
+1	how dost thou feel thyself now ?
+1	faith , some certain dregs of conscience are yet within me .
+1	remember our reward when the deed ’ s done .
+1	i had forgot the reward .
+1	where ’ s thy conscience now ?
+1	o , in the duke of gloucester ’ s purse .
+1	so when he opens his purse to give us our reward , thy conscience flies out .
+1	there ’ s few or none will entertain it .
+1	what if it come to thee again ?
+1	i ’ ll not meddle with it .
+1	tis a blushing , shamefaced spirit that mutinies in a man ’ s bosom .
+1	he can not prevail with me .
+1	spoke like a tall man that respects thy reputation .
+1	come , shall we fall to work ?
+1	o excellent device— and make a sop of him .
+1	no , we ’ ll reason with him .
+1	where art thou , keeper ?
+1	give me a cup of wine .
+1	you shall have wine enough , my lord , anon .
+1	in god ’ s name , what art thou ?
+1	a man , as you are .
+1	but not , as i am , royal .
+1	nor you , as we are , loyal .
+1	thy voice is thunder , but thy looks are humble .
+1	my voice is now the king ’ s , my looks mine own .
+1	your eyes do menace me .
+1	to , to , to— to murder me ?
+1	wherein , my friends , have i offended you ?
+1	offended us you have not , but the king .
+1	i shall be reconciled to him again .
+1	are you drawn forth among a world of men to slay the innocent ?
+1	where is the evidence that doth accuse me ?
+1	what lawful quest have given their verdict up unto the frowning judge ?
+1	or who pronounced the bitter sentence of poor clarence ' death before i be convict by course of law ?
+1	to threaten me with death is most unlawful .
+1	what we will do , we do upon command .
+1	an please your worship , brakenbury , you may partake of anything we say .
+1	we speak no treason , man .
+1	how say you , sir ?
+1	can you deny all this ?
+1	with this , my lord , myself have naught to do .
+1	i do beseech your grace to pardon me , and withal forbear your conference with the noble duke .
+1	and he that hath commanded is our king .
+1	and that same vengeance doth he hurl on thee for false forswearing and for murder too .
+1	whom thou wert sworn to cherish and defend .
+1	for whose sake did i that ill deed ?
+1	for edward , for my brother , for his sake .
+1	if god will be avengèd for this deed , o , know you yet he doth it publicly !
+1	my brother ’ s love , the devil , and my rage .
+1	i am his brother , and i love him well .
+1	your brother gloucester hates you .
+1	o , no , he loves me , and he holds me dear .
+1	go you to him from me .
+1	ay , so we will .
+1	bid gloucester think of this , and he will weep .
+1	ay , millstones , as he lessoned us to weep .
+1	right , as snow in harvest .
+1	come , you deceive yourself .
+1	tis he that sends us to destroy you here .
+1	make peace with god , for you must die , my lord .
+1	relent , and save your souls .
+1	ay , you would beg , were you in my distress .
+1	look behind you , my lord .
+1	take that , and that .
+1	what mean ’ st thou , that thou help ’ st me not ?
+1	by heavens , the duke shall know how slack you have been .
+1	i would he knew that i had saved his brother .
+1	go , coward as thou art .
+1	riddling confession finds but riddling shrift .
+1	then plainly know my heart ’ s dear love is set on the fair daughter of rich capulet .
+1	holy saint francis , what a change is here !
+1	is rosaline , whom thou didst love so dear , so soon forsaken ?
+1	young men ’ s love then lies not truly in their hearts , but in their eyes .
+1	the sun not yet thy sighs from heaven clears , thy old groans ring yet in my ancient ears .
+1	if e'er thou wast thyself and these woes thine , thou and these woes were all for rosaline .
+1	pronounce this sentence then : women may fall when there ’ s no strength in men .
+1	thou chid ’ st me oft for loving rosaline .
+1	for doting , not for loving , pupil mine .
+1	and badest me bury love .
+1	not in a grave , to lay one in , another out to have .
+1	i pray thee , chide not .
+1	the other did not so .
+1	oh , she knew well thy love did read by rote , that could not spell .
+1	oh , let us hence .
+1	i stand on sudden haste .
+1	they stumble that run fast .
+1	where the devil should this romeo be ?
+1	came he not home tonight ?
+1	not to his father ’ s .
+1	i spoke with his man .
+1	tybalt , the kinsman to old capulet , hath sent a letter to his father ’ s house .
+1	a challenge , on my life .
+1	any man that can write may answer a letter .
+1	nay , he will answer the letter ’ s master , how he dares , being dared .
+1	and is he a man to encounter tybalt ?
+1	why , what is tybalt ?
+1	without his roe , like a dried herring .
+1	o flesh , flesh , how art thou fishified !
+1	now is he for the numbers that petrarch flowed in .
+1	good morrow to you both .
+1	what counterfeit did i give you ?
+1	the slip , sir , the slip .
+1	nay , i am the very pink of courtesy .
+1	i serve as good a man as you .
+1	you know not what you do .
+1	what , art thou drawn among these heartless hinds ?
+1	come between us , good benvolio .
+1	switch and spurs , switch and spurs , or i ’ ll cry a match .
+1	was i with you there for the goose ?
+1	thou wast never with me for anything when thou wast not there for the goose .
+1	i will bite thee by the ear for that jest .
+1	nay , good goose , bite not .
+1	thy wit is a very bitter sweeting .
+1	it is a most sharp sauce .
+1	and is it not well served into a sweet goose ?
+1	why , is not this better now than groaning for love ?
+1	thou wouldst else have made thy tale large .
+1	oh , thou art deceived .
+1	here ’ s goodly gear .
+1	two , two—a shirt and a smock .
+1	god ye good morrow , gentlemen .
+1	god ye good e'en , fair gentlewoman .
+1	what a man are you ?
+1	one , gentlewoman , that god hath made , himself to mar .
+1	by my troth , it is well said .
+1	for himself to mar , ” quoth he ?
+1	gentlemen , can any of you tell me where i may find the young romeo ?
+1	i am the youngest of that name , for fault of a worse .
+1	yea , is the worst well ?
+1	very well took , i ' faith , wisely , wisely .
+1	she will indite him to some supper .
+1	romeo , will you come to your father ’ s ?
+1	we ’ ll to dinner , thither .
+1	and if i can not , i ’ ll find those that shall .
+1	i am none of his flirt-gills .
+1	i am none of his skains-mates .
+1	i saw no man use you at his pleasure .
+1	if i had , my weapon should quickly have been out , i warrant you .
+1	now , afore god , i am so vexed that every part about me quivers .
+1	nurse , commend me to thy lady and mistress .
+1	i protest unto thee— good heart , and i ' faith , i will tell her as much .
+1	lord , lord , she will be a joyful woman .
+1	what wilt thou tell her , nurse ?
+1	thou dost not mark me .
+1	and there she shall at friar lawrence ' cell be shrived and married .
+1	and stay , good nurse .
+1	be trusty , and i ’ ll quit thy pains .
+1	commend me to thy mistress .
+1	now god in heaven bless thee !
+1	what sayst thou , my dear nurse ?
+1	did you ne'er hear say , “ two may keep counsel , putting one away ” ?
+1	warrant thee , my man ’ s as true as steel .
+1	well , sir , my mistress is the sweetest lady.—lord , lord !
+1	i anger her sometimes and tell her that paris is the properer man .
+1	doth not ay , nurse , what of that ?
+1	both with an ah , mocker , that ’ s the dog ’ s name .
+1	commend me to thy lady .
+1	ay , a thousand times.—peter !
+1	the clock struck nine when i did send the nurse .
+1	perchance she can not meet him .
+1	that ’ s not so .
+1	oh , she is lame !
+1	had she affections and warm youthful blood , she would be as swift in motion as a ball .
+1	my words would bandy her to my sweet love , and his to me .
+1	o god , she comes.—o honey nurse , what news ?
+1	hast thou met with him ?
+1	peter , stay at the gate .
+1	now , good sweet nurse— o lord , why look ’ st thou sad ?
+1	though news be sad , yet tell them merrily .
+1	fie , how my bones ache !
+1	i would thou hadst my bones and i thy news .
+1	can you not stay awhile ?
+1	do you not see that i am out of breath ?
+1	the excuse that thou dost make in this delay is longer than the tale thou dost excuse .
+1	is thy news good , or bad ?
+1	say either , and i ’ ll stay the circumstance .
+1	is ’ t good or bad ?
+1	well , you have made a simple choice .
+1	you know not how to choose a man .
+1	go thy ways , wench .
+1	what , have you dined at home ?
+1	but all this did i know before .
+1	what says he of our marriage ?
+1	my back a ' t ' other side .
+1	ah , my back , my back !
+1	i ' faith , i am sorry that thou art not well .
+1	sweet , sweet , sweet nurse , tell me , what says my love ?
+1	why , she is within .
+1	your love says , like an honest gentleman , 'where is your mother ?
+1	o god ’ s lady dear , are you so hot ?
+1	marry , come up , i trow .
+1	is this the poultice for my aching bones ?
+1	henceforward do your messages yourself .
+1	here ’ s such a coil .
+1	come , what says romeo ?
+1	have you got leave to go to shrift today ?
+1	then hie you hence to friar lawrence ’ s cell .
+1	there stays a husband to make you a wife .
+1	now comes the wanton blood up in your cheeks .
+1	they ’ ll be in scarlet straight at any news .
+1	i ’ ll to dinner .
+1	hie you to the cell .
+1	i do but keep the peace .
+1	put up thy sword , or manage it to part these men with me .
+1	what , drawn , and talk of peace ?
+1	i hate the word , as i hate hell , all montagues , and thee .
+1	have at thee , coward !
+1	clubs , bills , and partisans !
+1	my sword , i say !
+1	old montague is come , and flourishes his blade in spite of me .
+1	thou shalt not stir one foot to seek a foe .
+1	too swift arrives as tardy as too slow .
+1	oh , so light a foot will ne'er wear out the everlasting flint .
+1	good even to my ghostly confessor .
+1	romeo shall thank thee , daughter , for us both .
+1	as much to him , else is his thanks too much .
+1	conceit , more rich in matter than in words , brags of his substance , not of ornament .
+1	come , come with me , and we will make short work .
+1	i pray thee , good mercutio , let ’ s retire .
+1	am i like such a fellow ?
+1	what eye but such an eye would spy out such a quarrel ?
+1	didst thou not fall out with a tailor for wearing his new doublet before easter ?
+1	with another , for tying his new shoes with old ribbon ?
+1	and yet thou wilt tutor me from quarreling !
+1	by my head , here comes the capulets .
+1	by my heel , i care not .
+1	make it a word and a blow .
+1	you shall find me apt enough to that , sir , an you will give me occasion .
+1	could you not take some occasion without giving ?
+1	mercutio , thou consort ’ st with romeo .
+1	what , dost thou make us minstrels ?
+1	an thou make minstrels of us , look to hear nothing but discords .
+1	we talk here in the public haunt of men .
+1	either withdraw unto some private place , and reason coldly of your grievances , or else depart .
+1	here all eyes gaze on us .
+1	men ’ s eyes were made to look and let them gaze .
+1	i will not budge for no man ’ s pleasure , i .
+1	well , peace be with you , sir .
+1	but i ’ ll be hanged , sir , if he wear your livery .
+1	i see thou know ’ st me not .
+1	boy , this shall not excuse the injuries that thou hast done me .
+1	and so , good capulet—which name i tender as dearly as my own—be satisfied .
+1	o calm dishonourable , vile submission !
+1	what wouldst thou have with me ?
+1	will you pluck your sword out of his pilcher by the ears ?
+1	make haste , lest mine be about your ears ere it be out .
+1	gentle mercutio , put thy rapier up .
+1	a plague o ' both your houses !
+1	is he gone and hath nothing ?
+1	what , art thou hurt ?
+1	marry , ’ tis enough .
+1	where is my page ? —go , villain , fetch a surgeon .
+1	the hurt can not be much .
+1	ask for me tomorrow , and you shall find me a grave man .
+1	i am peppered , i warrant , for this world .
+1	a plague o ' both your houses !
+1	zounds , a dog , a rat , a mouse , a cat to scratch a man to death !
+1	a braggart , a rogue , a villain that fights by the book of arithmetic !
+1	why the devil came you between us ?
+1	i was hurt under your arm .
+1	i thought all for the best .
+1	help me into some house , benvolio , or i shall faint .
+1	a plague o ' both your houses !
+1	they have made worms ' meat of me .
+1	i have it , and soundly too .
+1	o romeo , romeo , brave mercutio is dead !
+1	here comes the furious tybalt back again .
+1	alive in triumph—and mercutio slain !
+1	either thou or i , or both , must go with him .
+1	thou , wretched boy , that didst consort him here shalt with him hence .
+1	romeo , away , be gone !
+1	the citizens are up , and tybalt slain .
+1	the prince will doom thee death if thou art taken .
+1	hence , be gone , away !
+1	which way ran he that killed mercutio ?
+1	tybalt , that murderer , which way ran he ?
+1	were you by when it began ?
+1	where are the vile beginners of this fray ?
+1	o noble prince , i can discover all the unlucky manage of this fatal brawl .
+1	there lies the man , slain by young romeo , that slew thy kinsman , brave mercutio .
+1	o my brother ’ s child !
+1	benvolio , who began this bloody fray ?
+1	romeo , he cries aloud , “ hold , friends !
+1	and , as he fell , did romeo turn and fly .
+1	this is the truth , or let benvolio die .
+1	some twenty of them fought in this black strife , and all those twenty could but kill one life .
+1	i beg for justice , which thou , prince , must give .
+1	romeo slew him ; he slew mercutio .
+1	who now the price of his dear blood doth owe ?
+1	his fault concludes but what the law should end , the life of tybalt .
+1	i have an interest in your hearts ' proceeding .
+1	i will be deaf to pleading and excuses .
+1	nor tears nor prayers shall purchase out abuses , therefore use none .
+1	bear hence this body and attend our will .
+1	mercy but murders , pardoning those that kill .
+1	the cords that romeo bid thee fetch ?
+1	ay , ay , the cords .
+1	ay me , what news ?
+1	why dost thou wring thy hands ?
+1	we are undone , lady , we are undone !
+1	can heaven be so envious ?
+1	romeo can , though heaven can not .
+1	what devil art thou that dost torment me thus ?
+1	this torture should be roared in dismal hell .
+1	say thou but “ ay , ” and that bare vowel than the death-darting eye of cockatrice .
+1	to prison , eyes , ne'er look on liberty .
+1	vile earth , to earth resign .
+1	o tybalt , tybalt , the best friend i had !
+1	that ever i should live to see thee dead .
+1	is romeo slaughtered , and is tybalt dead ?
+1	my dearest cousin and my dearer lord ?
+1	tybalt is gone , and romeo banishèd .
+1	o god , did romeo ’ s hand shed tybalt ’ s blood ?
+1	it did , it did .
+1	alas the day , it did .
+1	o serpent heart hid with a flowering face !
+1	did ever dragon keep so fair a cave ?
+1	dove-feathered raven , wolvish-ravening lamb !
+1	was ever book containing such vile matter so fairly bound ?
+1	blistered be thy tongue for such a wish !
+1	he was not born to shame .
+1	upon his brow shame is ashamed to sit , for ’ tis a throne where honor may be crowned .
+1	sole monarch of the universal earth , oh , what a beast was i to chide at him !
+1	will you speak well of him that killed your cousin ?
+1	but wherefore , villain , didst thou kill my cousin ?
+1	that villain cousin would have killed my husband .
+1	tybalt is dead , and romeo banishèd . ”
+1	that “ banishèd , ” that one word “ banishèd ” hath slain ten thousand tybalts .
+1	tybalt ’ s death was woe enough , if it had ended there .
+1	no words can that woe sound .
+1	where is my father and my mother , nurse ?
+1	weeping and wailing over tybalt ’ s corse .
+1	will you go to them ?
+1	i will bring you thither .
+1	wash they his wounds with tears ?
+1	mine shall be spent when theirs are dry , for romeo ’ s banishment .
+1	take up those cords.—poor ropes , you are beguiled , both you and i , for romeo is exiled .
+1	he made you for a highway to my bed , but i , a maid , die maiden-widowèd .
+1	and death , not romeo , take my maidenhead !
+1	i ’ ll find romeo to comfort you .
+1	i wot well where he is .
+1	hark ye , your romeo will be here at night .
+1	i ’ ll to him .
+1	he is hid at lawrence ' cell .
+1	come forth , thou fearful man .
+1	too familiar is my dear son with such sour company .
+1	i bring thee tidings of the prince ’ s doom .
+1	what less than doomsday is the prince ’ s doom ?
+1	do not say “ banishment. ” hence from verona art thou banishèd .
+1	be patient , for the world is broad and wide .
+1	there is no world without verona walls but purgatory , torture , hell itself .
+1	hence “ banishèd ” is banished from the world , and world ’ s exile is death .
+1	tis torture and not mercy .
+1	more validity , more honorable state , more courtship lives in carrion flies than romeo .
+1	flies may do this , but i from this must fly .
+1	they are free men , but i am banishèd .
+1	and sayst thou yet that exile is not death ?
+1	o friar , the damnèd use that word in hell .
+1	thou fond mad man , hear me a little speak .
+1	here were the servants of your adversary , and yours , close fighting ere i did approach .
+1	i drew to part them .
+1	oh , where is romeo ?
+1	right glad i am he was not at this fray .
+1	towards him i made , but he was 'ware of me and stole into the covert of the wood .
+1	oh , thou wilt speak again of banishment .
+1	oh , then i see that madmen have no ears .
+1	how should they , when that wise men have no eyes ?
+1	let me dispute with thee of thy estate .
+1	thou canst not speak of that thou dost not feel .
+1	good romeo , hide thyself .
+1	not i , unless the breath of heartsick groans , mistlike , infold me from the search of eyes .
+1	what ’ s your will ?
+1	o holy friar , o , tell me , holy friar , where is my lady ’ s lord ?
+1	oh , he is even in my mistress ' case , just in her case .
+1	o woeful sympathy , piteous predicament !
+1	even so lies she , blubbering and weeping , weeping and blubbering .
+1	stand , an you be a man .
+1	for juliet ’ s sake , for her sake , rise and stand .
+1	why should you fall into so deep an o ?
+1	ah sir , ah sir .
+1	death ’ s the end of all .
+1	how is it with her ?
+1	and what says my concealed lady to our canceled love ?
+1	tell me , that i may sack the hateful mansion .
+1	thy wild acts denote the unreasonable fury of a beast .
+1	by my holy order , i thought thy disposition better tempered .
+1	why rail ’ st thou on thy birth , the heaven , and earth ?
+1	what , rouse thee , man !
+1	thy juliet is alive , for whose dear sake thou wast but lately dead— there art thou happy .
+1	tybalt would kill thee , but thou slew ’ st tybalt—there art thou happy .
+1	the law that threatened death becomes thy friend and turns it to exile—there art thou happy .
+1	a pack of blessings light upon thy back , happiness courts thee in her best array ,
+1	but , like a misbehaved and sullen wench , thou pout ’ st upon thy fortune and thy love .
+1	go , get thee to thy love , as was decreed .
+1	ascend her chamber , hence , and comfort her .
+1	o lord , i could have stayed here all the night to hear good counsel .
+1	oh , what learning is !
+1	do so , and bid my sweet prepare to chide .
+1	here , sir , a ring she bid me give you , sir .
+1	hie you , make haste , for it grows very late .
+1	how well my comfort is revived by this !
+1	look you , she loved her kinsman tybalt dearly , and so did i .
+1	well , we were born to die .
+1	these times of woe afford no time to woo .
+1	commend me to your daughter .
+1	i will , and know her mind early tomorrow .
+1	tonight she is mewed up to her heaviness .
+1	sir paris , i will make a desperate tender of my child ’ s love .
+1	do you like this haste ?
+1	we ’ ll keep no great ado , a friend or two .
+1	therefore we ’ ll have some half a dozen friends , and there an end .
+1	but what say you to thursday ?
+1	my lord , i would that thursday were tomorrow .
+1	o ' thursday be it , then.— go you to juliet ere you go to bed .
+1	it is not yet near day .
+1	it was the nightingale , and not the lark , that pierced the fearful hollow of thine ear .
+1	look , love , what envious streaks do lace the severing clouds in yonder east .
+1	night ’ s candles are burnt out , and jocund day stands tiptoe on the misty mountain tops .
+1	yon light is not daylight , i know it , i .
+1	thou need ’ st not to be gone .
+1	let me be put to death .
+1	i am content , so thou wilt have it so .
+1	i have more care to stay than will to go .
+1	come , death , and welcome !
+1	it is , it is .
+1	it is the lark that sings so out of tune , straining harsh discords and unpleasing sharps .
+1	some say the lark makes sweet division .
+1	this doth not so , for she divideth us .
+1	more light and light it grows .
+1	more light and light , more dark and dark our woes !
+1	your lady mother is coming to your chamber .
+1	then , window , let day in and let life out .
+1	one kiss , and i ’ ll descend .
+1	my noble uncle , do you know the cause ?
+1	i neither know it nor can learn of him .
+1	have you importuned him by any means ?
+1	art thou gone so , love , lord ?
+1	oh , by this count i shall be much in years ere i again behold my romeo .
+1	i will omit no opportunity that may convey my greetings , love , to thee .
+1	oh , think ’ st thou we shall ever meet again ?
+1	o god , i have an ill-divining soul .
+1	methinks i see thee now , thou art so low as one dead in the bottom of a tomb .
+1	either my eyesight fails , or thou look ’ st pale .
+1	and trust me , love , in my eye so do you .
+1	dry sorrow drinks our blood .
+1	all men call thee fickle .
+1	who is ’ t that calls ?
+1	is it my lady mother ?
+1	what unaccustomed cause procures her hither ?
+1	why , how now , juliet ?
+1	madam , i am not well .
+1	evermore weeping for your cousin ’ s death ?
+1	what , wilt thou wash him from his grave with tears ?
+1	an if thou couldst , thou couldst not make him live .
+1	some grief shows much of love , but much of grief shows still some want of wit .
+1	yet let me weep for such a feeling loss .
+1	so shall you feel the loss , but not the friend which you weep for .
+1	feeling so the loss , can not choose but ever weep the friend .
+1	that same villain , romeo .
+1	that is because the traitor murderer lives .
+1	ay , madam , from the reach of these my hands .
+1	would none but i might venge my cousin ’ s death !
+1	and then , i hope , thou wilt be satisfied .
+1	to wreak the love i bore my cousin upon his body that slaughtered him !
+1	find thou the means , and i ’ ll find such a man .
+1	but now i ’ ll tell thee joyful tidings , girl .
+1	and joy comes well in such a needy time .
+1	what are they , beseech your ladyship ?
+1	well , well , thou hast a careful father , child .
+1	madam , in happy time , what day is that ?
+1	i pray you , tell my lord and father , madam , i will not marry yet .
+1	tell him so yourself , and see how he will take it at your hands .
+1	what , still in tears , evermore showering ?
+1	have you delivered to her our decree ?
+1	i would the fool were married to her grave !
+1	how , will she none ?
+1	not proud you have , but thankful that you have .
+1	how , how , how , how ?
+1	out , you green sickness , carrion !
+1	what , are you mad ?
+1	good father , i beseech you on my knees , hear me with patience but to speak a word .
+1	out on her , hilding !
+1	god in heaven bless her !
+1	you are to blame , my lord , to rate her so .
+1	and why , my lady wisdom ?
+1	smatter with your gossips , go .
+1	oh , god ' i ' good e'en .
+1	peace , you mumbling fool !
+1	utter your gravity o'er a gossip ’ s bowl , for here we need it not .
+1	lay hand on heart , advise .
+1	an you be mine , i ’ ll give you to my friend .
+1	trust to ’ t , bethink you .
+1	i ’ ll not be forsworn .
+1	delay this marriage for a month , a week .
+1	or , if you do not , make the bridal bed in that dim monument where tybalt lies .
+1	talk not to me , for i ’ ll not speak a word .
+1	do as thou wilt , for i have done with thee .
+1	o god ! —o nurse , how shall this be prevented ?
+1	my husband is on earth , my faith in heaven .
+1	hast thou not a word of joy ?
+1	oh , he ’ s a lovely gentleman .
+1	romeo ’ s a dishclout to him .
+1	speakest thou from thy heart ?
+1	well , thou hast comforted me marvelous much .
+1	marry , i will , and this is wisely done .
+1	i ’ ll to the friar to know his remedy .
+1	if all else fail , myself have power to die .
+1	the time is very short .
+1	you say you do not know the lady ’ s mind .
+1	now do you know the reason of this haste .
+1	look , sir , here comes the lady toward my cell .
+1	happily met , my lady and my wife .
+1	that may be , sir , when i may be a wife .
+1	is the day so young ?
+1	was that my father that went hence so fast ?
+1	not having that which , having , makes them short .
+1	where shall we dine ? —o me !
+1	that “ may be ” must be , love , on thursday next .
+1	what must be shall be .
+1	that ’ s a certain text .
+1	come you to make confession to this father ?
+1	to answer that , i should confess to you .
+1	do not deny to him that you love me .
+1	i will confess to you that i love him .
+1	so will ye , i am sure , that you love me .
+1	poor soul , thy face is much abused with tears .
+1	thy face is mine , and thou hast slandered it .
+1	my leisure serves me , pensive daughter , now.— my lord , we must entreat the time alone .
+1	god shield i should disturb devotion ! — juliet , on thursday early will i rouse ye .
+1	o juliet , i already know thy grief .
+1	i hear thou must , and nothing may prorogue it , on thursday next be married to this county .
+1	tomorrow night look that thou lie alone .
+1	let not the nurse lie with thee in thy chamber .
+1	no warmth , no breath shall testify thou livest .
+1	give me , give me !
+1	love give me strength , and strength shall help afford .
+1	you shall have none ill , sir , for i ’ ll try if they can lick their fingers .
+1	how canst thou try them so ?
+1	therefore he that can not lick his fingers goes not with me .
+1	we shall be much unfurnished for this time .
+1	see where she comes from shrift with merry look .
+1	go tell him of this .
+1	i ’ ll have this knot knit up tomorrow morning .
+1	why , i am glad on ’ t .
+1	our whole city is much bound to him .
+1	no , not till thursday .
+1	we ’ ll to church tomorrow .
+1	tush , i will stir about , and all things shall be well , i warrant thee , wife .
+1	go thou to juliet , help to deck up her .
+1	i ’ ll not to bed tonight .
+1	i ’ ll play the housewife for this once .
+1	ay , those attires are best .
+1	what , are you busy , ho ?
+1	for , i am sure , you have your hands full all in this so sudden business .
+1	farewell ! —god knows when we shall meet again .
+1	my dismal scene i needs must act alone .
+1	what if this mixture do not work at all ?
+1	shall i be married then tomorrow morning ?
+1	stay , tybalt , stay !
+1	romeo , romeo , romeo !
+1	no , coz , i rather weep .
+1	good heart , at what ?
+1	why , such is love ’ s transgression .
+1	a madness most discreet , a choking gall , and a preserving sweet .
+1	and if you leave me so , you do me wrong .
+1	tut , i have lost myself .
+1	tell me in sadness , who is that you love .
+1	what , shall i groan and tell thee ?
+1	but sadly , tell me who .
+1	hold , take these keys , and fetch more spices , nurse .
+1	they call for dates and quinces in the pastry .
+1	come , stir , stir , stir !
+1	the second cock hath crowed .
+1	the curfew bell hath rung .
+1	spare not for the cost .
+1	go , you cot-quean , go .
+1	get you to bed , faith .
+1	you ’ ll be sick tomorrow for this night ’ s watching .
+1	i have watched ere now all night for lesser cause , and ne'er been sick .
+1	a jealous hood , a jealous hood !
+1	now , fellow , what is there ?
+1	make haste , make haste , sirrah .
+1	mass , and well said .
+1	a merry whoreson , ha !
+1	thou shalt be loggerhead.—good faith , ’ tis day .
+1	what , nurse , i say !
+1	go and trim her up .
+1	i ’ ll go and chat with paris .
+1	hie , make haste , make haste .
+1	the bridegroom he is come already .
+1	make haste , i say .
+1	juliet ! —fast , i warrant her , she.— why , lamb !
