@@ -47,6 +47,7 @@ inference after task-specific fine-tuning
 ```bash
 bash infer.sh
 ```
+Note that this repo only serve as fast prototype implementation, more robust refactor will be done soon.
 
 ## Acknowledgement
 Underpinning code for cp-vae is adapted from [CP-VAE](https://github.com/BorealisAI/CP-VAE).
