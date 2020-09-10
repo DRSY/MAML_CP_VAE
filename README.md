@@ -35,12 +35,17 @@ export s=1
 ```
 start training and inference
 ```bash
-python main.py --configpath ../config/s$s.json --corpus $corpus --maml-epochs 20 --transfer-epochs 10 --epochs-per-val 5 --maml-batch-size 8 --sub-batch-size --train-batch-size 16 --device-idx 0
+python main.py --configpath ../config/s$s.json --corpus $corpus --maml-epochs 20 --transfer-epochs 0 --epochs-per-val 5 --maml-batch-size 8 --sub-batch-size --train-batch-size 16 --device-idx 0
 ```
-
+fine-tuning for each sub-task
+```bash
+cd ../CP-VAE
+bash fine_tune.sh
+bash fine_tune_copy.sh
+```
 inference after task-specific fine-tuning
 ```bash
-bash scripts/infer_tsf.sh
+bash infer.sh
 ```
 
 ## Acknowledgement
