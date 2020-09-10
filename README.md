@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```
 enter the code dir
 ```bash
-cd maml-cp-vae/code
+cd code
 ```
 generate corpus for building vocab
 ```bash
